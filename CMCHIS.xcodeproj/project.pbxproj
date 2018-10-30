@@ -1,0 +1,1301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA06778420F104A200E576FC /* DrKumarsOrthoClinicDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778320F104A200E576FC /* DrKumarsOrthoClinicDetailedSViewController.swift */; };
+		EA06778620F1051700E576FC /* SankaraEyeHospitalKancheepuramDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778520F1051700E576FC /* SankaraEyeHospitalKancheepuramDetailedSViewController.swift */; };
+		EA06778820F1056C00E576FC /* ParvathyOrthoHospitalKancheepuramDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778720F1056C00E576FC /* ParvathyOrthoHospitalKancheepuramDetailedSViewController.swift */; };
+		EA06778A20F105B200E576FC /* DrAgarwalsEyeHospitalKancheepuramDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778920F105B200E576FC /* DrAgarwalsEyeHospitalKancheepuramDetailedSViewController.swift */; };
+		EA06778C20F11E1F00E576FC /* BejanSinghEyehospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778B20F11E1F00E576FC /* BejanSinghEyehospitalDetailedSViewController.swift */; };
+		EA06778E20F11E6200E576FC /* DrSureshEyeClinicKanyakumariDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778D20F11E6200E576FC /* DrSureshEyeClinicKanyakumariDetailedSViewController.swift */; };
+		EA06779020F11F3800E576FC /* RegionalCancerCenterKanyakumariDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06778F20F11F3800E576FC /* RegionalCancerCenterKanyakumariDetailedSViewController.swift */; };
+		EA06779220F11F9C00E576FC /* ManuelOrthopaedicHospitalKanyakumariDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06779120F11F9C00E576FC /* ManuelOrthopaedicHospitalKanyakumariDetailedSViewController.swift */; };
+		EA06779420F11FC400E576FC /* KIMSKanyakumariDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06779320F11FC400E576FC /* KIMSKanyakumariDetailedSViewController.swift */; };
+		EA06779620F12D7A00E576FC /* DrIssacBoneandJointHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06779520F12D7A00E576FC /* DrIssacBoneandJointHospitalDetailedSViewController.swift */; };
+		EA0677AE20F3BEBA00E576FC /* AarthyEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0677AD20F3BEBA00E576FC /* AarthyEyeHospitalDetailedSViewController.swift */; };
+		EA0677B020F3C2C000E576FC /* AbishekOrthoCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0677AF20F3C2C000E576FC /* AbishekOrthoCenterDetailedSViewController.swift */; };
+		EA0677B220F3C85A00E576FC /* KarurKidneyCareHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0677B120F3C85A00E576FC /* KarurKidneyCareHospitalDetailedSViewController.swift */; };
+		EA0677B420F3CD3E00E576FC /* RajOrthoHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0677B320F3CD3E00E576FC /* RajOrthoHospitalDetailedSViewController.swift */; };
+		EA0677B620F3D2C000E576FC /* VelanEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0677B520F3D2C000E576FC /* VelanEyeHospitalDetailedSViewController.swift */; };
+		EA07DA9820E3E44D0006354C /* AbhiEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DA9720E3E44D0006354C /* AbhiEyeHospitalDetailedSViewController.swift */; };
+		EA07DA9A20E3E9590006354C /* DrAgarwal'sEyeHospitalSalemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DA9920E3E9590006354C /* DrAgarwal'sEyeHospitalSalemViewController.swift */; };
+		EA07DA9C20E3EE1F0006354C /* DrSasiEyeCareHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DA9B20E3EE1F0006354C /* DrSasiEyeCareHospitalDetailedSViewController.swift */; };
+		EA07DA9E20E3FA610006354C /* GlobalMedicalCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DA9D20E3FA610006354C /* GlobalMedicalCenterDetailedSViewController.swift */; };
+		EA07DAA020E401CB0006354C /* RishiNethralayaEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DA9F20E401CB0006354C /* RishiNethralayaEyeHospitalDetailedSViewController.swift */; };
+		EA07DAA220E405390006354C /* SalemGopiHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAA120E405390006354C /* SalemGopiHospitalDetailedSViewController.swift */; };
+		EA07DAA420E407D60006354C /* SreeVasanthamDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAA320E407D60006354C /* SreeVasanthamDetailedSViewController.swift */; };
+		EA07DACA20E6822C0006354C /* AravindEyeHospitalTheniDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAC920E6822C0006354C /* AravindEyeHospitalTheniDetailedSViewController.swift */; };
+		EA07DACC20E685780006354C /* RathinamOrthoCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DACB20E685770006354C /* RathinamOrthoCenterDetailedSViewController.swift */; };
+		EA07DACE20E688780006354C /* RohanSekarHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DACD20E688780006354C /* RohanSekarHospitalDetailedSViewController.swift */; };
+		EA07DAD020E68C3C0006354C /* DrAgarwalsEyeHospitalThanjavurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DACF20E68C3C0006354C /* DrAgarwalsEyeHospitalThanjavurDetailedSViewController.swift */; };
+		EA07DAD220E68FE70006354C /* DrAravindVisionCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAD120E68FE70006354C /* DrAravindVisionCareDetailedSViewController.swift */; };
+		EA07DAD420E693910006354C /* KDRHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAD320E693910006354C /* KDRHospitalDetailedSViewController.swift */; };
+		EA07DAD620E696420006354C /* SBHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAD520E696420006354C /* SBHospitalDetailedSViewController.swift */; };
+		EA07DAD820E698A20006354C /* ThanjavurCancerHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAD720E698A20006354C /* ThanjavurCancerHospitalDetailedSViewController.swift */; };
+		EA07DADA20E69CCB0006354C /* PadminiUrologyClinicDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DAD920E69CCB0006354C /* PadminiUrologyClinicDetailedSViewController.swift */; };
+		EA07DADC20E69FFC0006354C /* SriSubaKowsikHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DADB20E69FFC0006354C /* SriSubaKowsikHospitalDetailedSViewController.swift */; };
+		EA07DADE20E6A2E50006354C /* AnandhEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA07DADD20E6A2E50006354C /* AnandhEyeHospitalDetailedSViewController.swift */; };
+		EA13291820E06FD30069A88B /* AbhimanKidneyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13291720E06FD30069A88B /* AbhimanKidneyCenterDetailedSViewController.swift */; };
+		EA13291A20E072CC0069A88B /* AravindEyeHospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13291920E072CC0069A88B /* AravindEyeHospitalViewController.swift */; };
+		EA13291C20E075FF0069A88B /* BrightHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13291B20E075FF0069A88B /* BrightHospitalDetailedSViewController.swift */; };
+		EA13291E20E164490069A88B /* DrAgarwalsEyeHospitalMaduraiDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13291D20E164490069A88B /* DrAgarwalsEyeHospitalMaduraiDetailedSViewController.swift */; };
+		EA13292020E1A0220069A88B /* DrAgarwalsEyeHospKKNagarDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13291F20E1A0220069A88B /* DrAgarwalsEyeHospKKNagarDetailedSViewController.swift */; };
+		EA13292220E1A4890069A88B /* MaduraiKidneyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13292120E1A4890069A88B /* MaduraiKidneyCenterDetailedSViewController.swift */; };
+		EA13292420E1A8640069A88B /* SanthyaHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13292320E1A8640069A88B /* SanthyaHospitalDetailedSViewController.swift */; };
+		EA13292620E1AB980069A88B /* SriRajanHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13292520E1AB980069A88B /* SriRajanHospitalDetailedSViewController.swift */; };
+		EA13292820E1AFBD0069A88B /* RakshaHospitalsDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13292720E1AFBD0069A88B /* RakshaHospitalsDetailedSViewController.swift */; };
+		EA13292A20E1B29A0069A88B /* TankerFoundationDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13292920E1B29A0069A88B /* TankerFoundationDetailedSViewController.swift */; };
+		EA322AE520E7025E00BABF5B /* VasanEyeCarePerambalurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AE420E7025E00BABF5B /* VasanEyeCarePerambalurDetailedSViewController.swift */; };
+		EA322AE720E704A400BABF5B /* ChandraNursingHomeDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AE620E704A400BABF5B /* ChandraNursingHomeDetailedSViewController.swift */; };
+		EA322AE920E7074E00BABF5B /* ChellamHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AE820E7074E00BABF5B /* ChellamHospitalDetailedSViewController.swift */; };
+		EA322AEB20E70BA200BABF5B /* AdhithyaNursingHomeDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AEA20E70BA200BABF5B /* AdhithyaNursingHomeDetailedSViewController.swift */; };
+		EA322AED20E7265900BABF5B /* LathaEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AEC20E7265900BABF5B /* LathaEyeHospitalDetailedSViewController.swift */; };
+		EA322AEF20E737F200BABF5B /* AbhiramiHospitalCuddaloreDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AEE20E737F200BABF5B /* AbhiramiHospitalCuddaloreDetailedSViewController.swift */; };
+		EA322AF320E73C8A00BABF5B /* AravindEyeHospitalCuddaloreDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA322AF220E73C8A00BABF5B /* AravindEyeHospitalCuddaloreDetailedSViewController.swift */; };
+		EA638F5820E7420900CA9764 /* KrishnaCancerInstituteDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F5720E7420900CA9764 /* KrishnaCancerInstituteDetailedSViewController.swift */; };
+		EA638F5A20E747CD00CA9764 /* PudhucherryCancerTrustHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F5920E747CD00CA9764 /* PudhucherryCancerTrustHospitalDetailedSViewController.swift */; };
+		EA638F5C20E7E5B200CA9764 /* DNVOrthoCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F5B20E7E5B200CA9764 /* DNVOrthoCareDetailedSViewController.swift */; };
+		EA638F5E20E7E68A00CA9764 /* DrAgarwalsEyeHospitalDharmapuriDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F5D20E7E68A00CA9764 /* DrAgarwalsEyeHospitalDharmapuriDetailedSViewController.swift */; };
+		EA638F6020E7E6BC00CA9764 /* VasanEyeCareDharmapuriDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F5F20E7E6BC00CA9764 /* VasanEyeCareDharmapuriDetailedSViewController.swift */; };
+		EA638F6220E7F41B00CA9764 /* CityHospitalDindigulDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F6120E7F41B00CA9764 /* CityHospitalDindigulDetailedSViewController.swift */; };
+		EA638F6420E7F59200CA9764 /* KTHospitalDindigulDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F6320E7F59200CA9764 /* KTHospitalDindigulDetailedSViewController.swift */; };
+		EA638F6620E7F60400CA9764 /* SrivatsavRakshaHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F6520E7F60400CA9764 /* SrivatsavRakshaHospitalDetailedSViewController.swift */; };
+		EA638F6820E7F62100CA9764 /* VanAllenHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA638F6720E7F62100CA9764 /* VanAllenHospitalDetailedSViewController.swift */; };
+		EA6AEEC620D7FB440031ECF9 /* EgmoreEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEC520D7FB440031ECF9 /* EgmoreEyeHospitalDetailedSViewController.swift */; };
+		EA6AEEC820D7FBA00031ECF9 /* IswaryaFertilityCentreDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEC720D7FBA00031ECF9 /* IswaryaFertilityCentreDetailedSViewController.swift */; };
+		EA6AEECA20D80BDD0031ECF9 /* JanakiENTNursingHomeDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEC920D80BDD0031ECF9 /* JanakiENTNursingHomeDetailedSViewController.swift */; };
+		EA6AEECC20D810A10031ECF9 /* KKRENTResearchDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEECB20D810A10031ECF9 /* KKRENTResearchDetailedSViewController.swift */; };
+		EA6AEECE20D813FB0031ECF9 /* MNEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEECD20D813FB0031ECF9 /* MNEyeHospitalDetailedSViewController.swift */; };
+		EA6AEED020D861C40031ECF9 /* MadrasENTResearchFoundationDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEECF20D861C40031ECF9 /* MadrasENTResearchFoundationDetailedSViewController.swift */; };
+		EA6AEED220D865800031ECF9 /* SankaraNethralayaDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEED120D865800031ECF9 /* SankaraNethralayaDetailedSViewController.swift */; };
+		EA6AEED420D869D60031ECF9 /* OrthomedDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEED320D869D60031ECF9 /* OrthomedDetailedSViewController.swift */; };
+		EA6AEED620D86B970031ECF9 /* RadhatriNethralayaDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEED520D86B970031ECF9 /* RadhatriNethralayaDetailedSViewController.swift */; };
+		EA6AEED820D8713A0031ECF9 /* RajanEyeCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEED720D871390031ECF9 /* RajanEyeCareDetailedSViewController.swift */; };
+		EA6AEEDA20D874800031ECF9 /* ThalessemiaWelfareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEED920D874800031ECF9 /* ThalessemiaWelfareDetailedSViewController.swift */; };
+		EA6AEEDC20D877740031ECF9 /* ToshHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEDB20D877740031ECF9 /* ToshHospitalDetailedSViewController.swift */; };
+		EA6AEEDE20D87F200031ECF9 /* VasanEyeCareWashermanpetDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEDD20D87F200031ECF9 /* VasanEyeCareWashermanpetDetailedSViewController.swift */; };
+		EA6AEEE020D94CE20031ECF9 /* VasanEyeCareSaidapetDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEDF20D94CE20031ECF9 /* VasanEyeCareSaidapetDetailedSViewController.swift */; };
+		EA6AEEE220D952E40031ECF9 /* VasanthaSubramanianDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEE120D952E40031ECF9 /* VasanthaSubramanianDetailedSViewController.swift */; };
+		EA6AEEE820DAA24F0031ECF9 /* AROrthoHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEE720DAA24F0031ECF9 /* AROrthoHospitalDetailedSViewController.swift */; };
+		EA6AEEEA20DAA6C60031ECF9 /* ArathanaHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEE920DAA6C60031ECF9 /* ArathanaHospitalDetailedSViewController.swift */; };
+		EA6AEEEC20DAAC2D0031ECF9 /* AravindEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEEB20DAAC2D0031ECF9 /* AravindEyeHospitalDetailedSViewController.swift */; };
+		EA6AEEEE20DAAF770031ECF9 /* CoimbatoreBoneAndJointDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEED20DAAF770031ECF9 /* CoimbatoreBoneAndJointDetailedSViewController.swift */; };
+		EA6AEEF020DAC01C0031ECF9 /* DrMuthusHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEEF20DAC01C0031ECF9 /* DrMuthusHospitalDetailedSViewController.swift */; };
+		EA6AEEF220DAC4B40031ECF9 /* EyeFoundationLtdDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEF120DAC4B40031ECF9 /* EyeFoundationLtdDetailedSViewController.swift */; };
+		EA6AEEF420DAC7EE0031ECF9 /* GemHospitalandResearchDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEF320DAC7EE0031ECF9 /* GemHospitalandResearchDetailedSViewController.swift */; };
+		EA6AEEF620DACA2E0031ECF9 /* KongunaduKidneyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEF520DACA2E0031ECF9 /* KongunaduKidneyCenterDetailedSViewController.swift */; };
+		EA6AEEF820DACCBE0031ECF9 /* LotusEyeCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEF720DACCBE0031ECF9 /* LotusEyeCareDetailedSViewController.swift */; };
+		EA6AEEFA20DB18980031ECF9 /* LotusEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEF920DB18980031ECF9 /* LotusEyeHospitalDetailedSViewController.swift */; };
+		EA6AEEFC20DB1BFA0031ECF9 /* MCVMemorailENTHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEFB20DB1BFA0031ECF9 /* MCVMemorailENTHospitalDetailedSViewController.swift */; };
+		EA6AEEFE20DB1FF50031ECF9 /* NehruUrologyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEFD20DB1FF50031ECF9 /* NehruUrologyCenterDetailedSViewController.swift */; };
+		EA6AEF0020DB265F0031ECF9 /* OneCareMedicalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEEFF20DB265F0031ECF9 /* OneCareMedicalDetailedSViewController.swift */; };
+		EA6AEF0220DB297F0031ECF9 /* RexOrthoHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0120DB297F0031ECF9 /* RexOrthoHospitalDetailedSViewController.swift */; };
+		EA6AEF0420DB2C0D0031ECF9 /* SathyanEyeCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0320DB2C0D0031ECF9 /* SathyanEyeCareDetailedSViewController.swift */; };
+		EA6AEF0820DB4D920031ECF9 /* SindhiaOrthoClinicDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0720DB4D920031ECF9 /* SindhiaOrthoClinicDetailedSViewController.swift */; };
+		EA6AEF0A20DB516E0031ECF9 /* VikramENTHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0920DB516E0031ECF9 /* VikramENTHospitalDetailedSViewController.swift */; };
+		EA6AEF0C20DC57900031ECF9 /* AbiramiKidneyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0B20DC57900031ECF9 /* AbiramiKidneyCenterDetailedSViewController.swift */; };
+		EA6AEF0E20DC5CC30031ECF9 /* AchchuthaEyeCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0D20DC5CC30031ECF9 /* AchchuthaEyeCareDetailedSViewController.swift */; };
+		EA6AEF1020DC66980031ECF9 /* AnnaiENTandHead&NeckCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF0F20DC66980031ECF9 /* AnnaiENTandHead&NeckCenterDetailedSViewController.swift */; };
+		EA6AEF1220DC99C30031ECF9 /* ArasanEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1120DC99C30031ECF9 /* ArasanEyeHospitalDetailedSViewController.swift */; };
+		EA6AEF1420DCB44F0031ECF9 /* BharaniPanventhanHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1320DCB44F0031ECF9 /* BharaniPanventhanHospitalDetailedSViewController.swift */; };
+		EA6AEF1620DD36730031ECF9 /* DrAgarwalsEyeHospitalErodeDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1520DD36730031ECF9 /* DrAgarwalsEyeHospitalErodeDetailedSViewController.swift */; };
+		EA6AEF1820DD39670031ECF9 /* DrLoganathanOrthopaedicHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1720DD39670031ECF9 /* DrLoganathanOrthopaedicHospitalDetailedSViewController.swift */; };
+		EA6AEF1A20DD3D870031ECF9 /* ErodeCancerCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1920DD3D870031ECF9 /* ErodeCancerCenterDetailedSViewController.swift */; };
+		EA6AEF1C20DD41F40031ECF9 /* ErodeKidneyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1B20DD41F40031ECF9 /* ErodeKidneyCenterDetailedSViewController.swift */; };
+		EA6AEF1E20DD46030031ECF9 /* ErodeOrthoCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1D20DD46030031ECF9 /* ErodeOrthoCenterDetailedSViewController.swift */; };
+		EA6AEF2020DD4A540031ECF9 /* KalyaniKidneyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF1F20DD4A540031ECF9 /* KalyaniKidneyCenterDetailedSViewController.swift */; };
+		EA6AEF2220DD57CD0031ECF9 /* KumarasamyHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2120DD57CD0031ECF9 /* KumarasamyHospitalDetailedSViewController.swift */; };
+		EA6AEF2420DD5B630031ECF9 /* LVSEyeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2320DD5B630031ECF9 /* LVSEyeHospitalDetailedSViewController.swift */; };
+		EA6AEF2620DD5DE10031ECF9 /* LKMHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2520DD5DE10031ECF9 /* LKMHospitalDetailedSViewController.swift */; };
+		EA6AEF2820DDD6DD0031ECF9 /* MSChildren'sHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2720DDD6DD0031ECF9 /* MSChildren'sHospitalDetailedSViewController.swift */; };
+		EA6AEF2A20DDDDD20031ECF9 /* NationalHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2920DDDDD20031ECF9 /* NationalHospitalDetailedSViewController.swift */; };
+		EA6AEF2C20DEFF340031ECF9 /* OrthoLifeHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2B20DEFF340031ECF9 /* OrthoLifeHospitalDetailedSViewController.swift */; };
+		EA6AEF2E20DF04120031ECF9 /* SKHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2D20DF04120031ECF9 /* SKHospitalDetailedSViewController.swift */; };
+		EA6AEF3020DF07890031ECF9 /* SCSHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF2F20DF07890031ECF9 /* SCSHospitalDetailedSViewController.swift */; };
+		EA6AEF3220DF14340031ECF9 /* ShriVijayaTraumaCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF3120DF14340031ECF9 /* ShriVijayaTraumaCareDetailedSViewController.swift */; };
+		EA6AEF3420DF18CA0031ECF9 /* TPNHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF3320DF18CA0031ECF9 /* TPNHospitalDetailedSViewController.swift */; };
+		EA6AEF3620DF1DBB0031ECF9 /* SriBalajiHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEF3520DF1DBB0031ECF9 /* SriBalajiHospitalDetailedSViewController.swift */; };
+		EA6C290A20E9286C00B49283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6C290920E9286C00B49283 /* Assets.xcassets */; };
+		EA70F11020F6E56900E2729C /* TiruvallurSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F10F20F6E56900E2729C /* TiruvallurSingleViewController.swift */; };
+		EA70F11320F6E5CF00E2729C /* TiruvannamalaiSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F11220F6E5CF00E2729C /* TiruvannamalaiSingleViewController.swift */; };
+		EA70F11620F6E62F00E2729C /* TiruchirapalliSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F11520F6E62F00E2729C /* TiruchirapalliSingleViewController.swift */; };
+		EA70F11920F6E6AB00E2729C /* TirunalveliSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F11820F6E6AB00E2729C /* TirunalveliSingleViewController.swift */; };
+		EA70F11C20F6E76300E2729C /* TirupurSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F11B20F6E76300E2729C /* TirupurSingleViewController.swift */; };
+		EA70F11F20F6E7AE00E2729C /* TuticorinSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F11E20F6E7AE00E2729C /* TuticorinSingleViewController.swift */; };
+		EA70F12220F6E84100E2729C /* VelloreSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F12120F6E84100E2729C /* VelloreSingleViewController.swift */; };
+		EA70F12520F6E8A300E2729C /* VirudhunagarSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70F12420F6E8A300E2729C /* VirudhunagarSingleViewController.swift */; };
+		EA8A97ED20D08F35002D65F5 /* DrRaiMemorialCancerInstituteDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A97EC20D08F35002D65F5 /* DrRaiMemorialCancerInstituteDetailedSViewController.swift */; };
+		EA921DE220C2FCEF00757D2E /* CancerInstituteDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA921DE120C2FCEF00757D2E /* CancerInstituteDetailedSViewController.swift */; };
+		EA921DE420C3050200757D2E /* DeepamEyeCareDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA921DE320C3050200757D2E /* DeepamEyeCareDetailedSViewController.swift */; };
+		EA921DE820C30A3F00757D2E /* DrAgarwalCathedralRoadSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA921DE720C30A3F00757D2E /* DrAgarwalCathedralRoadSViewController.swift */; };
+		EA965EC320C0F0DF00A7B4BE /* RamanathapuramSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA965EC220C0F0DF00A7B4BE /* RamanathapuramSingleViewController.swift */; };
+		EA965EC620C0F17700A7B4BE /* SalemSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA965EC520C0F17700A7B4BE /* SalemSingleViewController.swift */; };
+		EA965EC920C0F38500A7B4BE /* SivagangaiSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA965EC820C0F38500A7B4BE /* SivagangaiSingleViewController.swift */; };
+		EA965ECC20C0F4AD00A7B4BE /* ThanjavurSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA965ECB20C0F4AD00A7B4BE /* ThanjavurSingleViewController.swift */; };
+		EA965ECF20C0F5BC00A7B4BE /* TheniSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA965ECE20C0F5BC00A7B4BE /* TheniSingleViewController.swift */; };
+		EA965ED220C21CA100A7B4BE /* ApolloDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA965ED120C21CA100A7B4BE /* ApolloDetailedSViewController.swift */; };
+		EAC2179720FED2BE00FDF5C2 /* VeeCareEyeTiruvallurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2179620FED2BE00FDF5C2 /* VeeCareEyeTiruvallurDetailedSViewController.swift */; };
+		EAC2179920FED85300FDF5C2 /* TANKERFoundationDialysisCenterTiruvallurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2179820FED85300FDF5C2 /* TANKERFoundationDialysisCenterTiruvallurDetailedSViewController.swift */; };
+		EAC2179B20FEE4AD00FDF5C2 /* DrAravindVisionEyeCareDetailedSTiruvallurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2179A20FEE4AD00FDF5C2 /* DrAravindVisionEyeCareDetailedSTiruvallurViewController.swift */; };
+		EAC2179D20FF885400FDF5C2 /* DrRaiCBCCOncologyServicesDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2179C20FF885400FDF5C2 /* DrRaiCBCCOncologyServicesDetailedSViewController.swift */; };
+		EAC2179F20FF8D0500FDF5C2 /* DRREyeCareandOcuplastyCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2179E20FF8D0500FDF5C2 /* DRREyeCareandOcuplastyCenterDetailedSViewController.swift */; };
+		EAC217A120FF94C500FDF5C2 /* DarshanSurgicalCenterTiruvallurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217A020FF94C500FDF5C2 /* DarshanSurgicalCenterTiruvallurDetailedSViewController.swift */; };
+		EAC217A320FF9A7C00FDF5C2 /* LotusEyeCareTirupppurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217A220FF9A7C00FDF5C2 /* LotusEyeCareTirupppurDetailedSViewController.swift */; };
+		EAC217A520FFA6C000FDF5C2 /* TheEyeFoundationTiruppurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217A420FFA6C000FDF5C2 /* TheEyeFoundationTiruppurDetailedSViewController.swift */; };
+		EAC217A720FFB03200FDF5C2 /* BalaOrthoHospitalTiruppurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217A620FFB03200FDF5C2 /* BalaOrthoHospitalTiruppurDetailedSViewController.swift */; };
+		EAC217A920FFB6EC00FDF5C2 /* ARSHospitalTiruppurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217A820FFB6EC00FDF5C2 /* ARSHospitalTiruppurDetailedSViewController.swift */; };
+		EAC217AB21001E5C00FDF5C2 /* PriyaOrthoHospitalTiruppurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217AA21001E5C00FDF5C2 /* PriyaOrthoHospitalTiruppurDetailedSViewController.swift */; };
+		EAC217AD2100374400FDF5C2 /* DSKHospitalsTirupurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217AC2100374400FDF5C2 /* DSKHospitalsTirupurDetailedSViewController.swift */; };
+		EAC217AF2100377900FDF5C2 /* KonguOrthoCenterTiruppurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217AE2100377900FDF5C2 /* KonguOrthoCenterTiruppurDetailedSViewController.swift */; };
+		EAC217B12100E73400FDF5C2 /* SakthiEyeHospitalVirudhunagarDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217B02100E73400FDF5C2 /* SakthiEyeHospitalVirudhunagarDetailedSViewController.swift */; };
+		EAC217B32100F22200FDF5C2 /* SriRamakrishnaHospitalVirudhunagarDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217B22100F22200FDF5C2 /* SriRamakrishnaHospitalVirudhunagarDetailedSViewController.swift */; };
+		EAC217B52100FCA400FDF5C2 /* GrahamClinicVirudhunagarDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217B42100FCA400FDF5C2 /* GrahamClinicVirudhunagarDetailedSViewController.swift */; };
+		EAC217B72101011400FDF5C2 /* SakthibalaHospitalVirudhunagarDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217B62101011400FDF5C2 /* SakthibalaHospitalVirudhunagarDetailedSViewController.swift */; };
+		EAC217B92101013300FDF5C2 /* MathiCardiacCenterVirudhunagarDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217B82101013300FDF5C2 /* MathiCardiacCenterVirudhunagarDetailedSViewController.swift */; };
+		EAC217BB210160E200FDF5C2 /* DrAgarwalsEyeHospitalVelloreDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217BA210160E200FDF5C2 /* DrAgarwalsEyeHospitalVelloreDetailedSViewController.swift */; };
+		EAC217BD210161EB00FDF5C2 /* TANKERFoundationSathuvachariDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217BC210161EB00FDF5C2 /* TANKERFoundationSathuvachariDetailedSViewController.swift */; };
+		EAC217BF2101621F00FDF5C2 /* ArcotDialysisCenterDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217BE2101621F00FDF5C2 /* ArcotDialysisCenterDetailedSViewController.swift */; };
+		EAC217C121022A2F00FDF5C2 /* PublicWelfareHospitalTuticorinDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217C021022A2F00FDF5C2 /* PublicWelfareHospitalTuticorinDetailedSViewController.swift */; };
+		EAC217C321022DEE00FDF5C2 /* AravindEyeHospitalTirunalveliDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217C221022DEE00FDF5C2 /* AravindEyeHospitalTirunalveliDetailedSViewController.swift */; };
+		EAC217C521022E1F00FDF5C2 /* DrAgarwalsEyeHospitalTirunalveliDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217C421022E1F00FDF5C2 /* DrAgarwalsEyeHospitalTirunalveliDetailedSViewController.swift */; };
+		EAC217C721022E6100FDF5C2 /* SubramanianNursingHomeTirunalveliDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217C621022E6100FDF5C2 /* SubramanianNursingHomeTirunalveliDetailedSViewController.swift */; };
+		EAC217C921023B1700FDF5C2 /* AmrishOncologyServicesTiruchirapalliDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217C821023B1700FDF5C2 /* AmrishOncologyServicesTiruchirapalliDetailedSViewController.swift */; };
+		EAC217CB21023F1700FDF5C2 /* SriRamanamaharishiEyeHospitalTiruvannamalaiDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217CA21023F1700FDF5C2 /* SriRamanamaharishiEyeHospitalTiruvannamalaiDetailedSViewController.swift */; };
+		EAC217CD21023F5600FDF5C2 /* VivekanandaEyeHospitalTiruvannamalaiDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC217CC21023F5600FDF5C2 /* VivekanandaEyeHospitalTiruvannamalaiDetailedSViewController.swift */; };
+		EACC332220F83CCD00C1C0C6 /* Agarwal'sEyeHospitalHosurDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332120F83CCD00C1C0C6 /* Agarwal'sEyeHospitalHosurDetailedSViewController.swift */; };
+		EACC332420F83D4A00C1C0C6 /* Agarwal'sEyeHospitalKrishnagiriDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332320F83D4A00C1C0C6 /* Agarwal'sEyeHospitalKrishnagiriDetailedSViewController.swift */; };
+		EACC332620F83D6400C1C0C6 /* SBSHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332520F83D6400C1C0C6 /* SBSHospitalDetailedSViewController.swift */; };
+		EACC332820F83D8E00C1C0C6 /* UmaRaniHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332720F83D8E00C1C0C6 /* UmaRaniHospitalDetailedSViewController.swift */; };
+		EACC332C20F83DCC00C1C0C6 /* VasanEyeCareHospitalKrishnagiriDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332B20F83DCC00C1C0C6 /* VasanEyeCareHospitalKrishnagiriDetailedSViewController.swift */; };
+		EACC332E20F8EB1900C1C0C6 /* KrishnaOrthoHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332D20F8EB1900C1C0C6 /* KrishnaOrthoHospitalDetailedSViewController.swift */; };
+		EACC333020F8EB3600C1C0C6 /* RamBone&JointHospitalDetailedSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC332F20F8EB3600C1C0C6 /* RamBone&JointHospitalDetailedSViewController.swift */; };
+		EACE521D20BB5C19000CB208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACE521C20BB5C19000CB208 /* AppDelegate.swift */; };
+		EACE521F20BB5C19000CB208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACE521E20BB5C19000CB208 /* ViewController.swift */; };
+		EACE522220BB5C19000CB208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACE522020BB5C19000CB208 /* Main.storyboard */; };
+		EACE522720BB5C1C000CB208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACE522520BB5C1C000CB208 /* LaunchScreen.storyboard */; };
+		EAF5039220BB629900643921 /* HospitalCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5039120BB629900643921 /* HospitalCategoryViewController.swift */; };
+		EAF5039620BB637100643921 /* SingleChooseDistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5039520BB637100643921 /* SingleChooseDistViewController.swift */; };
+		EAF5039C20BB747E00643921 /* ChennaiSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5039B20BB747E00643921 /* ChennaiSingleViewController.swift */; };
+		EAF5039F20BB7A1700643921 /* CoimbatoreSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5039E20BB7A1700643921 /* CoimbatoreSingleViewController.swift */; };
+		EAF503A220BB7DF700643921 /* CuddaloreSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503A120BB7DF700643921 /* CuddaloreSingleViewController.swift */; };
+		EAF503A520BB811A00643921 /* DharmapuriSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503A420BB811A00643921 /* DharmapuriSingleViewController.swift */; };
+		EAF503A820BB8B9D00643921 /* DindigulSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503A720BB8B9D00643921 /* DindigulSingleViewController.swift */; };
+		EAF503AB20BB8CF800643921 /* ErodeSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503AA20BB8CF800643921 /* ErodeSingleViewController.swift */; };
+		EAF503AE20BB949F00643921 /* KancheepuramSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503AD20BB949F00643921 /* KancheepuramSingleViewController.swift */; };
+		EAF503B120BB963A00643921 /* KanyakumariSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503B020BB963A00643921 /* KanyakumariSingleViewController.swift */; };
+		EAF503B420BB9A8800643921 /* KarurSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503B320BB9A8800643921 /* KarurSingleViewController.swift */; };
+		EAF503B720BC3B5D00643921 /* KrishnagiriSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503B620BC3B5D00643921 /* KrishnagiriSingleViewController.swift */; };
+		EAF503BA20BC462000643921 /* MaduraiSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503B920BC462000643921 /* MaduraiSingleViewController.swift */; };
+		EAF503BD20BC47A700643921 /* NagapattinamSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503BC20BC47A700643921 /* NagapattinamSingleViewController.swift */; };
+		EAF503C020BC485B00643921 /* NamakkalSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503BF20BC485B00643921 /* NamakkalSingleViewController.swift */; };
+		EAF503C320BC49B400643921 /* PerambalurSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF503C220BC49B400643921 /* PerambalurSingleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA06778320F104A200E576FC /* DrKumarsOrthoClinicDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrKumarsOrthoClinicDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06778520F1051700E576FC /* SankaraEyeHospitalKancheepuramDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SankaraEyeHospitalKancheepuramDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06778720F1056C00E576FC /* ParvathyOrthoHospitalKancheepuramDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParvathyOrthoHospitalKancheepuramDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06778920F105B200E576FC /* DrAgarwalsEyeHospitalKancheepuramDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalKancheepuramDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06778B20F11E1F00E576FC /* BejanSinghEyehospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BejanSinghEyehospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06778D20F11E6200E576FC /* DrSureshEyeClinicKanyakumariDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrSureshEyeClinicKanyakumariDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06778F20F11F3800E576FC /* RegionalCancerCenterKanyakumariDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionalCancerCenterKanyakumariDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06779120F11F9C00E576FC /* ManuelOrthopaedicHospitalKanyakumariDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuelOrthopaedicHospitalKanyakumariDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06779320F11FC400E576FC /* KIMSKanyakumariDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMSKanyakumariDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA06779520F12D7A00E576FC /* DrIssacBoneandJointHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrIssacBoneandJointHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA0677AD20F3BEBA00E576FC /* AarthyEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AarthyEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA0677AF20F3C2C000E576FC /* AbishekOrthoCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbishekOrthoCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA0677B120F3C85A00E576FC /* KarurKidneyCareHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarurKidneyCareHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA0677B320F3CD3E00E576FC /* RajOrthoHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajOrthoHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA0677B520F3D2C000E576FC /* VelanEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelanEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DA9720E3E44D0006354C /* AbhiEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhiEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DA9920E3E9590006354C /* DrAgarwal'sEyeHospitalSalemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrAgarwal'sEyeHospitalSalemViewController.swift"; sourceTree = "<group>"; };
+		EA07DA9B20E3EE1F0006354C /* DrSasiEyeCareHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrSasiEyeCareHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DA9D20E3FA610006354C /* GlobalMedicalCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMedicalCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DA9F20E401CB0006354C /* RishiNethralayaEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RishiNethralayaEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAA120E405390006354C /* SalemGopiHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalemGopiHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAA320E407D60006354C /* SreeVasanthamDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SreeVasanthamDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAC920E6822C0006354C /* AravindEyeHospitalTheniDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AravindEyeHospitalTheniDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DACB20E685770006354C /* RathinamOrthoCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RathinamOrthoCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DACD20E688780006354C /* RohanSekarHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RohanSekarHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DACF20E68C3C0006354C /* DrAgarwalsEyeHospitalThanjavurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalThanjavurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAD120E68FE70006354C /* DrAravindVisionCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAravindVisionCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAD320E693910006354C /* KDRHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDRHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAD520E696420006354C /* SBHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAD720E698A20006354C /* ThanjavurCancerHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanjavurCancerHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DAD920E69CCB0006354C /* PadminiUrologyClinicDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadminiUrologyClinicDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DADB20E69FFC0006354C /* SriSubaKowsikHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SriSubaKowsikHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA07DADD20E6A2E50006354C /* AnandhEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnandhEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13291720E06FD30069A88B /* AbhimanKidneyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhimanKidneyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13291920E072CC0069A88B /* AravindEyeHospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AravindEyeHospitalViewController.swift; sourceTree = "<group>"; };
+		EA13291B20E075FF0069A88B /* BrightHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13291D20E164490069A88B /* DrAgarwalsEyeHospitalMaduraiDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalMaduraiDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13291F20E1A0220069A88B /* DrAgarwalsEyeHospKKNagarDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospKKNagarDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13292120E1A4890069A88B /* MaduraiKidneyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaduraiKidneyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13292320E1A8640069A88B /* SanthyaHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanthyaHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13292520E1AB980069A88B /* SriRajanHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SriRajanHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13292720E1AFBD0069A88B /* RakshaHospitalsDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakshaHospitalsDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA13292920E1B29A0069A88B /* TankerFoundationDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankerFoundationDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AE420E7025E00BABF5B /* VasanEyeCarePerambalurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasanEyeCarePerambalurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AE620E704A400BABF5B /* ChandraNursingHomeDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChandraNursingHomeDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AE820E7074E00BABF5B /* ChellamHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChellamHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AEA20E70BA200BABF5B /* AdhithyaNursingHomeDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhithyaNursingHomeDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AEC20E7265900BABF5B /* LathaEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LathaEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AEE20E737F200BABF5B /* AbhiramiHospitalCuddaloreDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhiramiHospitalCuddaloreDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA322AF220E73C8A00BABF5B /* AravindEyeHospitalCuddaloreDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AravindEyeHospitalCuddaloreDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F5720E7420900CA9764 /* KrishnaCancerInstituteDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishnaCancerInstituteDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F5920E747CD00CA9764 /* PudhucherryCancerTrustHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PudhucherryCancerTrustHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F5B20E7E5B200CA9764 /* DNVOrthoCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNVOrthoCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F5D20E7E68A00CA9764 /* DrAgarwalsEyeHospitalDharmapuriDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalDharmapuriDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F5F20E7E6BC00CA9764 /* VasanEyeCareDharmapuriDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasanEyeCareDharmapuriDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F6120E7F41B00CA9764 /* CityHospitalDindigulDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityHospitalDindigulDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F6320E7F59200CA9764 /* KTHospitalDindigulDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTHospitalDindigulDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F6520E7F60400CA9764 /* SrivatsavRakshaHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrivatsavRakshaHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA638F6720E7F62100CA9764 /* VanAllenHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanAllenHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEC520D7FB440031ECF9 /* EgmoreEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgmoreEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEC720D7FBA00031ECF9 /* IswaryaFertilityCentreDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IswaryaFertilityCentreDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEC920D80BDD0031ECF9 /* JanakiENTNursingHomeDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanakiENTNursingHomeDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEECB20D810A10031ECF9 /* KKRENTResearchDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKRENTResearchDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEECD20D813FB0031ECF9 /* MNEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEECF20D861C40031ECF9 /* MadrasENTResearchFoundationDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadrasENTResearchFoundationDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEED120D865800031ECF9 /* SankaraNethralayaDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SankaraNethralayaDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEED320D869D60031ECF9 /* OrthomedDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthomedDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEED520D86B970031ECF9 /* RadhatriNethralayaDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadhatriNethralayaDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEED720D871390031ECF9 /* RajanEyeCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajanEyeCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEED920D874800031ECF9 /* ThalessemiaWelfareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThalessemiaWelfareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEDB20D877740031ECF9 /* ToshHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToshHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEDD20D87F200031ECF9 /* VasanEyeCareWashermanpetDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasanEyeCareWashermanpetDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEDF20D94CE20031ECF9 /* VasanEyeCareSaidapetDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasanEyeCareSaidapetDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEE120D952E40031ECF9 /* VasanthaSubramanianDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasanthaSubramanianDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEE720DAA24F0031ECF9 /* AROrthoHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AROrthoHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEE920DAA6C60031ECF9 /* ArathanaHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArathanaHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEEB20DAAC2D0031ECF9 /* AravindEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AravindEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEED20DAAF770031ECF9 /* CoimbatoreBoneAndJointDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoimbatoreBoneAndJointDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEEF20DAC01C0031ECF9 /* DrMuthusHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrMuthusHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEF120DAC4B40031ECF9 /* EyeFoundationLtdDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeFoundationLtdDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEF320DAC7EE0031ECF9 /* GemHospitalandResearchDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemHospitalandResearchDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEF520DACA2E0031ECF9 /* KongunaduKidneyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KongunaduKidneyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEF720DACCBE0031ECF9 /* LotusEyeCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusEyeCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEF920DB18980031ECF9 /* LotusEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEFB20DB1BFA0031ECF9 /* MCVMemorailENTHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCVMemorailENTHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEFD20DB1FF50031ECF9 /* NehruUrologyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NehruUrologyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEEFF20DB265F0031ECF9 /* OneCareMedicalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCareMedicalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0120DB297F0031ECF9 /* RexOrthoHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexOrthoHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0320DB2C0D0031ECF9 /* SathyanEyeCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SathyanEyeCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0720DB4D920031ECF9 /* SindhiaOrthoClinicDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SindhiaOrthoClinicDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0920DB516E0031ECF9 /* VikramENTHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikramENTHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0B20DC57900031ECF9 /* AbiramiKidneyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbiramiKidneyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0D20DC5CC30031ECF9 /* AchchuthaEyeCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchchuthaEyeCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF0F20DC66980031ECF9 /* AnnaiENTandHead&NeckCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnnaiENTandHead&NeckCenterDetailedSViewController.swift"; sourceTree = "<group>"; };
+		EA6AEF1120DC99C30031ECF9 /* ArasanEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArasanEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1320DCB44F0031ECF9 /* BharaniPanventhanHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BharaniPanventhanHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1520DD36730031ECF9 /* DrAgarwalsEyeHospitalErodeDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalErodeDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1720DD39670031ECF9 /* DrLoganathanOrthopaedicHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrLoganathanOrthopaedicHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1920DD3D870031ECF9 /* ErodeCancerCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErodeCancerCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1B20DD41F40031ECF9 /* ErodeKidneyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErodeKidneyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1D20DD46030031ECF9 /* ErodeOrthoCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErodeOrthoCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF1F20DD4A540031ECF9 /* KalyaniKidneyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalyaniKidneyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2120DD57CD0031ECF9 /* KumarasamyHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumarasamyHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2320DD5B630031ECF9 /* LVSEyeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVSEyeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2520DD5DE10031ECF9 /* LKMHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKMHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2720DDD6DD0031ECF9 /* MSChildren'sHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MSChildren'sHospitalDetailedSViewController.swift"; sourceTree = "<group>"; };
+		EA6AEF2920DDDDD20031ECF9 /* NationalHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2B20DEFF340031ECF9 /* OrthoLifeHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthoLifeHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2D20DF04120031ECF9 /* SKHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF2F20DF07890031ECF9 /* SCSHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF3120DF14340031ECF9 /* ShriVijayaTraumaCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriVijayaTraumaCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF3320DF18CA0031ECF9 /* TPNHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPNHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6AEF3520DF1DBB0031ECF9 /* SriBalajiHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SriBalajiHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA6C290920E9286C00B49283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/DESKTOP/Assets.xcassets/Assets.xcassets; sourceTree = "<group>"; };
+		EA70F10F20F6E56900E2729C /* TiruvallurSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiruvallurSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F11220F6E5CF00E2729C /* TiruvannamalaiSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiruvannamalaiSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F11520F6E62F00E2729C /* TiruchirapalliSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiruchirapalliSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F11820F6E6AB00E2729C /* TirunalveliSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TirunalveliSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F11B20F6E76300E2729C /* TirupurSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TirupurSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F11E20F6E7AE00E2729C /* TuticorinSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuticorinSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F12120F6E84100E2729C /* VelloreSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelloreSingleViewController.swift; sourceTree = "<group>"; };
+		EA70F12420F6E8A300E2729C /* VirudhunagarSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirudhunagarSingleViewController.swift; sourceTree = "<group>"; };
+		EA8A97EC20D08F35002D65F5 /* DrRaiMemorialCancerInstituteDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrRaiMemorialCancerInstituteDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA921DE120C2FCEF00757D2E /* CancerInstituteDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancerInstituteDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA921DE320C3050200757D2E /* DeepamEyeCareDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepamEyeCareDetailedSViewController.swift; sourceTree = "<group>"; };
+		EA921DE720C30A3F00757D2E /* DrAgarwalCathedralRoadSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalCathedralRoadSViewController.swift; sourceTree = "<group>"; };
+		EA965EC220C0F0DF00A7B4BE /* RamanathapuramSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamanathapuramSingleViewController.swift; sourceTree = "<group>"; };
+		EA965EC520C0F17700A7B4BE /* SalemSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalemSingleViewController.swift; sourceTree = "<group>"; };
+		EA965EC820C0F38500A7B4BE /* SivagangaiSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SivagangaiSingleViewController.swift; sourceTree = "<group>"; };
+		EA965ECB20C0F4AD00A7B4BE /* ThanjavurSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanjavurSingleViewController.swift; sourceTree = "<group>"; };
+		EA965ECE20C0F5BC00A7B4BE /* TheniSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheniSingleViewController.swift; sourceTree = "<group>"; };
+		EA965ED120C21CA100A7B4BE /* ApolloDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC2179620FED2BE00FDF5C2 /* VeeCareEyeTiruvallurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeeCareEyeTiruvallurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC2179820FED85300FDF5C2 /* TANKERFoundationDialysisCenterTiruvallurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TANKERFoundationDialysisCenterTiruvallurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC2179A20FEE4AD00FDF5C2 /* DrAravindVisionEyeCareDetailedSTiruvallurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAravindVisionEyeCareDetailedSTiruvallurViewController.swift; sourceTree = "<group>"; };
+		EAC2179C20FF885400FDF5C2 /* DrRaiCBCCOncologyServicesDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrRaiCBCCOncologyServicesDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC2179E20FF8D0500FDF5C2 /* DRREyeCareandOcuplastyCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRREyeCareandOcuplastyCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217A020FF94C500FDF5C2 /* DarshanSurgicalCenterTiruvallurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarshanSurgicalCenterTiruvallurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217A220FF9A7C00FDF5C2 /* LotusEyeCareTirupppurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusEyeCareTirupppurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217A420FFA6C000FDF5C2 /* TheEyeFoundationTiruppurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEyeFoundationTiruppurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217A620FFB03200FDF5C2 /* BalaOrthoHospitalTiruppurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalaOrthoHospitalTiruppurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217A820FFB6EC00FDF5C2 /* ARSHospitalTiruppurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSHospitalTiruppurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217AA21001E5C00FDF5C2 /* PriyaOrthoHospitalTiruppurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriyaOrthoHospitalTiruppurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217AC2100374400FDF5C2 /* DSKHospitalsTirupurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSKHospitalsTirupurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217AE2100377900FDF5C2 /* KonguOrthoCenterTiruppurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonguOrthoCenterTiruppurDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217B02100E73400FDF5C2 /* SakthiEyeHospitalVirudhunagarDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakthiEyeHospitalVirudhunagarDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217B22100F22200FDF5C2 /* SriRamakrishnaHospitalVirudhunagarDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SriRamakrishnaHospitalVirudhunagarDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217B42100FCA400FDF5C2 /* GrahamClinicVirudhunagarDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrahamClinicVirudhunagarDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217B62101011400FDF5C2 /* SakthibalaHospitalVirudhunagarDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakthibalaHospitalVirudhunagarDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217B82101013300FDF5C2 /* MathiCardiacCenterVirudhunagarDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathiCardiacCenterVirudhunagarDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217BA210160E200FDF5C2 /* DrAgarwalsEyeHospitalVelloreDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalVelloreDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217BC210161EB00FDF5C2 /* TANKERFoundationSathuvachariDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TANKERFoundationSathuvachariDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217BE2101621F00FDF5C2 /* ArcotDialysisCenterDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcotDialysisCenterDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217C021022A2F00FDF5C2 /* PublicWelfareHospitalTuticorinDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicWelfareHospitalTuticorinDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217C221022DEE00FDF5C2 /* AravindEyeHospitalTirunalveliDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AravindEyeHospitalTirunalveliDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217C421022E1F00FDF5C2 /* DrAgarwalsEyeHospitalTirunalveliDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAgarwalsEyeHospitalTirunalveliDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217C621022E6100FDF5C2 /* SubramanianNursingHomeTirunalveliDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubramanianNursingHomeTirunalveliDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217C821023B1700FDF5C2 /* AmrishOncologyServicesTiruchirapalliDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmrishOncologyServicesTiruchirapalliDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217CA21023F1700FDF5C2 /* SriRamanamaharishiEyeHospitalTiruvannamalaiDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SriRamanamaharishiEyeHospitalTiruvannamalaiDetailedSViewController.swift; sourceTree = "<group>"; };
+		EAC217CC21023F5600FDF5C2 /* VivekanandaEyeHospitalTiruvannamalaiDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivekanandaEyeHospitalTiruvannamalaiDetailedSViewController.swift; sourceTree = "<group>"; };
+		EACC332120F83CCD00C1C0C6 /* Agarwal'sEyeHospitalHosurDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Agarwal'sEyeHospitalHosurDetailedSViewController.swift"; sourceTree = "<group>"; };
+		EACC332320F83D4A00C1C0C6 /* Agarwal'sEyeHospitalKrishnagiriDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Agarwal'sEyeHospitalKrishnagiriDetailedSViewController.swift"; sourceTree = "<group>"; };
+		EACC332520F83D6400C1C0C6 /* SBSHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EACC332720F83D8E00C1C0C6 /* UmaRaniHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmaRaniHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EACC332B20F83DCC00C1C0C6 /* VasanEyeCareHospitalKrishnagiriDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasanEyeCareHospitalKrishnagiriDetailedSViewController.swift; sourceTree = "<group>"; };
+		EACC332D20F8EB1900C1C0C6 /* KrishnaOrthoHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishnaOrthoHospitalDetailedSViewController.swift; sourceTree = "<group>"; };
+		EACC332F20F8EB3600C1C0C6 /* RamBone&JointHospitalDetailedSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RamBone&JointHospitalDetailedSViewController.swift"; sourceTree = "<group>"; };
+		EACE521920BB5C19000CB208 /* CMCHIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMCHIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACE521C20BB5C19000CB208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EACE521E20BB5C19000CB208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EACE522120BB5C19000CB208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACE522620BB5C1C000CB208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACE522820BB5C1C000CB208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF5039120BB629900643921 /* HospitalCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCategoryViewController.swift; sourceTree = "<group>"; };
+		EAF5039520BB637100643921 /* SingleChooseDistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleChooseDistViewController.swift; sourceTree = "<group>"; };
+		EAF5039B20BB747E00643921 /* ChennaiSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChennaiSingleViewController.swift; sourceTree = "<group>"; };
+		EAF5039E20BB7A1700643921 /* CoimbatoreSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoimbatoreSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503A120BB7DF700643921 /* CuddaloreSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuddaloreSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503A420BB811A00643921 /* DharmapuriSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DharmapuriSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503A720BB8B9D00643921 /* DindigulSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DindigulSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503AA20BB8CF800643921 /* ErodeSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErodeSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503AD20BB949F00643921 /* KancheepuramSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KancheepuramSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503B020BB963A00643921 /* KanyakumariSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyakumariSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503B320BB9A8800643921 /* KarurSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarurSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503B620BC3B5D00643921 /* KrishnagiriSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishnagiriSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503B920BC462000643921 /* MaduraiSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaduraiSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503BC20BC47A700643921 /* NagapattinamSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagapattinamSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503BF20BC485B00643921 /* NamakkalSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamakkalSingleViewController.swift; sourceTree = "<group>"; };
+		EAF503C220BC49B400643921 /* PerambalurSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerambalurSingleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACE521620BB5C19000CB208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA70F11120F6E58E00E2729C /* Tiruvallur */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F10F20F6E56900E2729C /* TiruvallurSingleViewController.swift */,
+				EAC2179620FED2BE00FDF5C2 /* VeeCareEyeTiruvallurDetailedSViewController.swift */,
+				EAC2179820FED85300FDF5C2 /* TANKERFoundationDialysisCenterTiruvallurDetailedSViewController.swift */,
+				EAC2179A20FEE4AD00FDF5C2 /* DrAravindVisionEyeCareDetailedSTiruvallurViewController.swift */,
+				EAC2179C20FF885400FDF5C2 /* DrRaiCBCCOncologyServicesDetailedSViewController.swift */,
+				EAC2179E20FF8D0500FDF5C2 /* DRREyeCareandOcuplastyCenterDetailedSViewController.swift */,
+				EAC217A020FF94C500FDF5C2 /* DarshanSurgicalCenterTiruvallurDetailedSViewController.swift */,
+			);
+			path = Tiruvallur;
+			sourceTree = "<group>";
+		};
+		EA70F11420F6E5D800E2729C /* Tiruvannamalai */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F11220F6E5CF00E2729C /* TiruvannamalaiSingleViewController.swift */,
+				EAC217CA21023F1700FDF5C2 /* SriRamanamaharishiEyeHospitalTiruvannamalaiDetailedSViewController.swift */,
+				EAC217CC21023F5600FDF5C2 /* VivekanandaEyeHospitalTiruvannamalaiDetailedSViewController.swift */,
+			);
+			path = Tiruvannamalai;
+			sourceTree = "<group>";
+		};
+		EA70F11720F6E68A00E2729C /* Tiruchirapalli */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F11520F6E62F00E2729C /* TiruchirapalliSingleViewController.swift */,
+				EAC217C821023B1700FDF5C2 /* AmrishOncologyServicesTiruchirapalliDetailedSViewController.swift */,
+			);
+			path = Tiruchirapalli;
+			sourceTree = "<group>";
+		};
+		EA70F11A20F6E6B000E2729C /* Tirunalveli */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F11820F6E6AB00E2729C /* TirunalveliSingleViewController.swift */,
+				EAC217C221022DEE00FDF5C2 /* AravindEyeHospitalTirunalveliDetailedSViewController.swift */,
+				EAC217C421022E1F00FDF5C2 /* DrAgarwalsEyeHospitalTirunalveliDetailedSViewController.swift */,
+				EAC217C621022E6100FDF5C2 /* SubramanianNursingHomeTirunalveliDetailedSViewController.swift */,
+			);
+			path = Tirunalveli;
+			sourceTree = "<group>";
+		};
+		EA70F11D20F6E78E00E2729C /* Tirupur */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F11B20F6E76300E2729C /* TirupurSingleViewController.swift */,
+				EAC217A220FF9A7C00FDF5C2 /* LotusEyeCareTirupppurDetailedSViewController.swift */,
+				EAC217A420FFA6C000FDF5C2 /* TheEyeFoundationTiruppurDetailedSViewController.swift */,
+				EAC217A620FFB03200FDF5C2 /* BalaOrthoHospitalTiruppurDetailedSViewController.swift */,
+				EAC217A820FFB6EC00FDF5C2 /* ARSHospitalTiruppurDetailedSViewController.swift */,
+				EAC217AA21001E5C00FDF5C2 /* PriyaOrthoHospitalTiruppurDetailedSViewController.swift */,
+				EAC217AC2100374400FDF5C2 /* DSKHospitalsTirupurDetailedSViewController.swift */,
+				EAC217AE2100377900FDF5C2 /* KonguOrthoCenterTiruppurDetailedSViewController.swift */,
+			);
+			path = Tirupur;
+			sourceTree = "<group>";
+		};
+		EA70F12020F6E82A00E2729C /* Tuticorin */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F11E20F6E7AE00E2729C /* TuticorinSingleViewController.swift */,
+				EAC217C021022A2F00FDF5C2 /* PublicWelfareHospitalTuticorinDetailedSViewController.swift */,
+			);
+			path = Tuticorin;
+			sourceTree = "<group>";
+		};
+		EA70F12320F6E86200E2729C /* Vellore */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F12120F6E84100E2729C /* VelloreSingleViewController.swift */,
+				EAC217BA210160E200FDF5C2 /* DrAgarwalsEyeHospitalVelloreDetailedSViewController.swift */,
+				EAC217BC210161EB00FDF5C2 /* TANKERFoundationSathuvachariDetailedSViewController.swift */,
+				EAC217BE2101621F00FDF5C2 /* ArcotDialysisCenterDetailedSViewController.swift */,
+			);
+			path = Vellore;
+			sourceTree = "<group>";
+		};
+		EA70F12620F6E8AA00E2729C /* Virudhunagar */ = {
+			isa = PBXGroup;
+			children = (
+				EA70F12420F6E8A300E2729C /* VirudhunagarSingleViewController.swift */,
+				EAC217B02100E73400FDF5C2 /* SakthiEyeHospitalVirudhunagarDetailedSViewController.swift */,
+				EAC217B22100F22200FDF5C2 /* SriRamakrishnaHospitalVirudhunagarDetailedSViewController.swift */,
+				EAC217B42100FCA400FDF5C2 /* GrahamClinicVirudhunagarDetailedSViewController.swift */,
+				EAC217B62101011400FDF5C2 /* SakthibalaHospitalVirudhunagarDetailedSViewController.swift */,
+				EAC217B82101013300FDF5C2 /* MathiCardiacCenterVirudhunagarDetailedSViewController.swift */,
+			);
+			path = Virudhunagar;
+			sourceTree = "<group>";
+		};
+		EA965EC420C0F0E700A7B4BE /* Ramanathapuram */ = {
+			isa = PBXGroup;
+			children = (
+				EA965EC220C0F0DF00A7B4BE /* RamanathapuramSingleViewController.swift */,
+				EA07DADD20E6A2E50006354C /* AnandhEyeHospitalDetailedSViewController.swift */,
+			);
+			path = Ramanathapuram;
+			sourceTree = "<group>";
+		};
+		EA965EC720C0F17D00A7B4BE /* Salem */ = {
+			isa = PBXGroup;
+			children = (
+				EA965EC520C0F17700A7B4BE /* SalemSingleViewController.swift */,
+				EA07DA9720E3E44D0006354C /* AbhiEyeHospitalDetailedSViewController.swift */,
+				EA07DA9920E3E9590006354C /* DrAgarwal'sEyeHospitalSalemViewController.swift */,
+				EA07DA9B20E3EE1F0006354C /* DrSasiEyeCareHospitalDetailedSViewController.swift */,
+				EA07DA9D20E3FA610006354C /* GlobalMedicalCenterDetailedSViewController.swift */,
+				EA07DA9F20E401CB0006354C /* RishiNethralayaEyeHospitalDetailedSViewController.swift */,
+				EA07DAA120E405390006354C /* SalemGopiHospitalDetailedSViewController.swift */,
+				EA07DAA320E407D60006354C /* SreeVasanthamDetailedSViewController.swift */,
+			);
+			path = Salem;
+			sourceTree = "<group>";
+		};
+		EA965ECA20C0F38B00A7B4BE /* Sivagangai */ = {
+			isa = PBXGroup;
+			children = (
+				EA965EC820C0F38500A7B4BE /* SivagangaiSingleViewController.swift */,
+				EA07DAD920E69CCB0006354C /* PadminiUrologyClinicDetailedSViewController.swift */,
+				EA07DADB20E69FFC0006354C /* SriSubaKowsikHospitalDetailedSViewController.swift */,
+			);
+			path = Sivagangai;
+			sourceTree = "<group>";
+		};
+		EA965ECD20C0F4B100A7B4BE /* Thanjavur */ = {
+			isa = PBXGroup;
+			children = (
+				EA965ECB20C0F4AD00A7B4BE /* ThanjavurSingleViewController.swift */,
+				EA07DACF20E68C3C0006354C /* DrAgarwalsEyeHospitalThanjavurDetailedSViewController.swift */,
+				EA07DAD120E68FE70006354C /* DrAravindVisionCareDetailedSViewController.swift */,
+				EA07DAD320E693910006354C /* KDRHospitalDetailedSViewController.swift */,
+				EA07DAD520E696420006354C /* SBHospitalDetailedSViewController.swift */,
+				EA07DAD720E698A20006354C /* ThanjavurCancerHospitalDetailedSViewController.swift */,
+			);
+			path = Thanjavur;
+			sourceTree = "<group>";
+		};
+		EA965ED020C0F5C600A7B4BE /* Theni */ = {
+			isa = PBXGroup;
+			children = (
+				EA965ECE20C0F5BC00A7B4BE /* TheniSingleViewController.swift */,
+				EA07DAC920E6822C0006354C /* AravindEyeHospitalTheniDetailedSViewController.swift */,
+				EA07DACB20E685770006354C /* RathinamOrthoCenterDetailedSViewController.swift */,
+				EA07DACD20E688780006354C /* RohanSekarHospitalDetailedSViewController.swift */,
+			);
+			path = Theni;
+			sourceTree = "<group>";
+		};
+		EACE521020BB5C19000CB208 = {
+			isa = PBXGroup;
+			children = (
+				EACE521B20BB5C19000CB208 /* CMCHIS */,
+				EACE521A20BB5C19000CB208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACE521A20BB5C19000CB208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACE521920BB5C19000CB208 /* CMCHIS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACE521B20BB5C19000CB208 /* CMCHIS */ = {
+			isa = PBXGroup;
+			children = (
+				EACE521C20BB5C19000CB208 /* AppDelegate.swift */,
+				EACE521E20BB5C19000CB208 /* ViewController.swift */,
+				EACE522020BB5C19000CB208 /* Main.storyboard */,
+				EAF5039A20BB64BB00643921 /* HospitalCatagory */,
+				EAF5039920BB648000643921 /* DistrictChoose */,
+				EACE522520BB5C1C000CB208 /* LaunchScreen.storyboard */,
+				EACE522820BB5C1C000CB208 /* Info.plist */,
+				EA6C290920E9286C00B49283 /* Assets.xcassets */,
+			);
+			path = CMCHIS;
+			sourceTree = "<group>";
+		};
+		EAF5039920BB648000643921 /* DistrictChoose */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5039520BB637100643921 /* SingleChooseDistViewController.swift */,
+				EA965ED020C0F5C600A7B4BE /* Theni */,
+				EAF503C420BC49BD00643921 /* Perambalur */,
+				EAF503BB20BC463300643921 /* Madurai */,
+				EAF503B220BB964300643921 /* Kanyakumari */,
+				EAF503AF20BB94A900643921 /* Kancheepuram */,
+				EAF503AC20BB8D0E00643921 /* Erode */,
+				EAF5039D20BB74B300643921 /* Chennai */,
+				EAF503A020BB7A2700643921 /* Coimbatore */,
+				EAF503A320BB7E0200643921 /* Cuddalore */,
+				EAF503A620BB812F00643921 /* Dharmapuri */,
+				EAF503A920BB8BA300643921 /* Dindigul */,
+				EAF503B520BB9A8F00643921 /* Karur */,
+				EAF503B820BC3B6400643921 /* Krishnagiri */,
+				EAF503BE20BC47AD00643921 /* Nagapattinam */,
+				EAF503C120BC486400643921 /* Namakkal */,
+				EA965EC420C0F0E700A7B4BE /* Ramanathapuram */,
+				EA965EC720C0F17D00A7B4BE /* Salem */,
+				EA965ECA20C0F38B00A7B4BE /* Sivagangai */,
+				EA965ECD20C0F4B100A7B4BE /* Thanjavur */,
+				EA70F11120F6E58E00E2729C /* Tiruvallur */,
+				EA70F11420F6E5D800E2729C /* Tiruvannamalai */,
+				EA70F11720F6E68A00E2729C /* Tiruchirapalli */,
+				EA70F11A20F6E6B000E2729C /* Tirunalveli */,
+				EA70F11D20F6E78E00E2729C /* Tirupur */,
+				EA70F12020F6E82A00E2729C /* Tuticorin */,
+				EA70F12320F6E86200E2729C /* Vellore */,
+				EA70F12620F6E8AA00E2729C /* Virudhunagar */,
+			);
+			path = DistrictChoose;
+			sourceTree = "<group>";
+		};
+		EAF5039A20BB64BB00643921 /* HospitalCatagory */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5039120BB629900643921 /* HospitalCategoryViewController.swift */,
+			);
+			path = HospitalCatagory;
+			sourceTree = "<group>";
+		};
+		EAF5039D20BB74B300643921 /* Chennai */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5039B20BB747E00643921 /* ChennaiSingleViewController.swift */,
+				EA965ED120C21CA100A7B4BE /* ApolloDetailedSViewController.swift */,
+				EA921DE120C2FCEF00757D2E /* CancerInstituteDetailedSViewController.swift */,
+				EA921DE320C3050200757D2E /* DeepamEyeCareDetailedSViewController.swift */,
+				EA921DE720C30A3F00757D2E /* DrAgarwalCathedralRoadSViewController.swift */,
+				EA8A97EC20D08F35002D65F5 /* DrRaiMemorialCancerInstituteDetailedSViewController.swift */,
+				EA6AEEC520D7FB440031ECF9 /* EgmoreEyeHospitalDetailedSViewController.swift */,
+				EA6AEEC720D7FBA00031ECF9 /* IswaryaFertilityCentreDetailedSViewController.swift */,
+				EA6AEEC920D80BDD0031ECF9 /* JanakiENTNursingHomeDetailedSViewController.swift */,
+				EA6AEECB20D810A10031ECF9 /* KKRENTResearchDetailedSViewController.swift */,
+				EA6AEECD20D813FB0031ECF9 /* MNEyeHospitalDetailedSViewController.swift */,
+				EA6AEECF20D861C40031ECF9 /* MadrasENTResearchFoundationDetailedSViewController.swift */,
+				EA6AEED120D865800031ECF9 /* SankaraNethralayaDetailedSViewController.swift */,
+				EA6AEED320D869D60031ECF9 /* OrthomedDetailedSViewController.swift */,
+				EA6AEED520D86B970031ECF9 /* RadhatriNethralayaDetailedSViewController.swift */,
+				EA6AEED720D871390031ECF9 /* RajanEyeCareDetailedSViewController.swift */,
+				EA6AEED920D874800031ECF9 /* ThalessemiaWelfareDetailedSViewController.swift */,
+				EA6AEEDB20D877740031ECF9 /* ToshHospitalDetailedSViewController.swift */,
+				EA6AEEDD20D87F200031ECF9 /* VasanEyeCareWashermanpetDetailedSViewController.swift */,
+				EA6AEEDF20D94CE20031ECF9 /* VasanEyeCareSaidapetDetailedSViewController.swift */,
+				EA6AEEE120D952E40031ECF9 /* VasanthaSubramanianDetailedSViewController.swift */,
+			);
+			path = Chennai;
+			sourceTree = "<group>";
+		};
+		EAF503A020BB7A2700643921 /* Coimbatore */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5039E20BB7A1700643921 /* CoimbatoreSingleViewController.swift */,
+				EA6AEEE720DAA24F0031ECF9 /* AROrthoHospitalDetailedSViewController.swift */,
+				EA6AEEE920DAA6C60031ECF9 /* ArathanaHospitalDetailedSViewController.swift */,
+				EA6AEEEB20DAAC2D0031ECF9 /* AravindEyeHospitalDetailedSViewController.swift */,
+				EA6AEEED20DAAF770031ECF9 /* CoimbatoreBoneAndJointDetailedSViewController.swift */,
+				EA6AEEEF20DAC01C0031ECF9 /* DrMuthusHospitalDetailedSViewController.swift */,
+				EA6AEEF120DAC4B40031ECF9 /* EyeFoundationLtdDetailedSViewController.swift */,
+				EA6AEEF320DAC7EE0031ECF9 /* GemHospitalandResearchDetailedSViewController.swift */,
+				EA6AEEF520DACA2E0031ECF9 /* KongunaduKidneyCenterDetailedSViewController.swift */,
+				EA6AEEF720DACCBE0031ECF9 /* LotusEyeCareDetailedSViewController.swift */,
+				EA6AEEF920DB18980031ECF9 /* LotusEyeHospitalDetailedSViewController.swift */,
+				EA6AEEFB20DB1BFA0031ECF9 /* MCVMemorailENTHospitalDetailedSViewController.swift */,
+				EA6AEEFD20DB1FF50031ECF9 /* NehruUrologyCenterDetailedSViewController.swift */,
+				EA6AEEFF20DB265F0031ECF9 /* OneCareMedicalDetailedSViewController.swift */,
+				EA6AEF0120DB297F0031ECF9 /* RexOrthoHospitalDetailedSViewController.swift */,
+				EA6AEF0320DB2C0D0031ECF9 /* SathyanEyeCareDetailedSViewController.swift */,
+				EA6AEF0720DB4D920031ECF9 /* SindhiaOrthoClinicDetailedSViewController.swift */,
+				EA6AEF0920DB516E0031ECF9 /* VikramENTHospitalDetailedSViewController.swift */,
+			);
+			path = Coimbatore;
+			sourceTree = "<group>";
+		};
+		EAF503A320BB7E0200643921 /* Cuddalore */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503A120BB7DF700643921 /* CuddaloreSingleViewController.swift */,
+				EA322AEE20E737F200BABF5B /* AbhiramiHospitalCuddaloreDetailedSViewController.swift */,
+				EA322AF220E73C8A00BABF5B /* AravindEyeHospitalCuddaloreDetailedSViewController.swift */,
+				EA638F5720E7420900CA9764 /* KrishnaCancerInstituteDetailedSViewController.swift */,
+				EA638F5920E747CD00CA9764 /* PudhucherryCancerTrustHospitalDetailedSViewController.swift */,
+			);
+			path = Cuddalore;
+			sourceTree = "<group>";
+		};
+		EAF503A620BB812F00643921 /* Dharmapuri */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503A420BB811A00643921 /* DharmapuriSingleViewController.swift */,
+				EA638F5B20E7E5B200CA9764 /* DNVOrthoCareDetailedSViewController.swift */,
+				EA638F5D20E7E68A00CA9764 /* DrAgarwalsEyeHospitalDharmapuriDetailedSViewController.swift */,
+				EA638F5F20E7E6BC00CA9764 /* VasanEyeCareDharmapuriDetailedSViewController.swift */,
+			);
+			path = Dharmapuri;
+			sourceTree = "<group>";
+		};
+		EAF503A920BB8BA300643921 /* Dindigul */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503A720BB8B9D00643921 /* DindigulSingleViewController.swift */,
+				EA638F6120E7F41B00CA9764 /* CityHospitalDindigulDetailedSViewController.swift */,
+				EA638F6320E7F59200CA9764 /* KTHospitalDindigulDetailedSViewController.swift */,
+				EA638F6520E7F60400CA9764 /* SrivatsavRakshaHospitalDetailedSViewController.swift */,
+				EA638F6720E7F62100CA9764 /* VanAllenHospitalDetailedSViewController.swift */,
+			);
+			path = Dindigul;
+			sourceTree = "<group>";
+		};
+		EAF503AC20BB8D0E00643921 /* Erode */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503AA20BB8CF800643921 /* ErodeSingleViewController.swift */,
+				EA6AEF0B20DC57900031ECF9 /* AbiramiKidneyCenterDetailedSViewController.swift */,
+				EA6AEF0D20DC5CC30031ECF9 /* AchchuthaEyeCareDetailedSViewController.swift */,
+				EA6AEF0F20DC66980031ECF9 /* AnnaiENTandHead&NeckCenterDetailedSViewController.swift */,
+				EA6AEF1120DC99C30031ECF9 /* ArasanEyeHospitalDetailedSViewController.swift */,
+				EA6AEF1320DCB44F0031ECF9 /* BharaniPanventhanHospitalDetailedSViewController.swift */,
+				EA6AEF1520DD36730031ECF9 /* DrAgarwalsEyeHospitalErodeDetailedSViewController.swift */,
+				EA6AEF1720DD39670031ECF9 /* DrLoganathanOrthopaedicHospitalDetailedSViewController.swift */,
+				EA6AEF1920DD3D870031ECF9 /* ErodeCancerCenterDetailedSViewController.swift */,
+				EA6AEF1B20DD41F40031ECF9 /* ErodeKidneyCenterDetailedSViewController.swift */,
+				EA6AEF1D20DD46030031ECF9 /* ErodeOrthoCenterDetailedSViewController.swift */,
+				EA6AEF1F20DD4A540031ECF9 /* KalyaniKidneyCenterDetailedSViewController.swift */,
+				EA6AEF2120DD57CD0031ECF9 /* KumarasamyHospitalDetailedSViewController.swift */,
+				EA6AEF2320DD5B630031ECF9 /* LVSEyeHospitalDetailedSViewController.swift */,
+				EA6AEF2520DD5DE10031ECF9 /* LKMHospitalDetailedSViewController.swift */,
+				EA6AEF2720DDD6DD0031ECF9 /* MSChildren'sHospitalDetailedSViewController.swift */,
+				EA6AEF2920DDDDD20031ECF9 /* NationalHospitalDetailedSViewController.swift */,
+				EA6AEF2B20DEFF340031ECF9 /* OrthoLifeHospitalDetailedSViewController.swift */,
+				EA6AEF2D20DF04120031ECF9 /* SKHospitalDetailedSViewController.swift */,
+				EA6AEF2F20DF07890031ECF9 /* SCSHospitalDetailedSViewController.swift */,
+				EA6AEF3120DF14340031ECF9 /* ShriVijayaTraumaCareDetailedSViewController.swift */,
+				EA6AEF3320DF18CA0031ECF9 /* TPNHospitalDetailedSViewController.swift */,
+				EA6AEF3520DF1DBB0031ECF9 /* SriBalajiHospitalDetailedSViewController.swift */,
+			);
+			path = Erode;
+			sourceTree = "<group>";
+		};
+		EAF503AF20BB94A900643921 /* Kancheepuram */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503AD20BB949F00643921 /* KancheepuramSingleViewController.swift */,
+				EA06778320F104A200E576FC /* DrKumarsOrthoClinicDetailedSViewController.swift */,
+				EA06778520F1051700E576FC /* SankaraEyeHospitalKancheepuramDetailedSViewController.swift */,
+				EA06778720F1056C00E576FC /* ParvathyOrthoHospitalKancheepuramDetailedSViewController.swift */,
+				EA06778920F105B200E576FC /* DrAgarwalsEyeHospitalKancheepuramDetailedSViewController.swift */,
+			);
+			path = Kancheepuram;
+			sourceTree = "<group>";
+		};
+		EAF503B220BB964300643921 /* Kanyakumari */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503B020BB963A00643921 /* KanyakumariSingleViewController.swift */,
+				EA06778B20F11E1F00E576FC /* BejanSinghEyehospitalDetailedSViewController.swift */,
+				EA06778D20F11E6200E576FC /* DrSureshEyeClinicKanyakumariDetailedSViewController.swift */,
+				EA06778F20F11F3800E576FC /* RegionalCancerCenterKanyakumariDetailedSViewController.swift */,
+				EA06779120F11F9C00E576FC /* ManuelOrthopaedicHospitalKanyakumariDetailedSViewController.swift */,
+				EA06779320F11FC400E576FC /* KIMSKanyakumariDetailedSViewController.swift */,
+				EA06779520F12D7A00E576FC /* DrIssacBoneandJointHospitalDetailedSViewController.swift */,
+			);
+			path = Kanyakumari;
+			sourceTree = "<group>";
+		};
+		EAF503B520BB9A8F00643921 /* Karur */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503B320BB9A8800643921 /* KarurSingleViewController.swift */,
+				EA0677AD20F3BEBA00E576FC /* AarthyEyeHospitalDetailedSViewController.swift */,
+				EA0677AF20F3C2C000E576FC /* AbishekOrthoCenterDetailedSViewController.swift */,
+				EA0677B120F3C85A00E576FC /* KarurKidneyCareHospitalDetailedSViewController.swift */,
+				EA0677B320F3CD3E00E576FC /* RajOrthoHospitalDetailedSViewController.swift */,
+				EA0677B520F3D2C000E576FC /* VelanEyeHospitalDetailedSViewController.swift */,
+			);
+			path = Karur;
+			sourceTree = "<group>";
+		};
+		EAF503B820BC3B6400643921 /* Krishnagiri */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503B620BC3B5D00643921 /* KrishnagiriSingleViewController.swift */,
+				EACC332120F83CCD00C1C0C6 /* Agarwal'sEyeHospitalHosurDetailedSViewController.swift */,
+				EACC332320F83D4A00C1C0C6 /* Agarwal'sEyeHospitalKrishnagiriDetailedSViewController.swift */,
+				EACC332520F83D6400C1C0C6 /* SBSHospitalDetailedSViewController.swift */,
+				EACC332720F83D8E00C1C0C6 /* UmaRaniHospitalDetailedSViewController.swift */,
+				EACC332B20F83DCC00C1C0C6 /* VasanEyeCareHospitalKrishnagiriDetailedSViewController.swift */,
+			);
+			path = Krishnagiri;
+			sourceTree = "<group>";
+		};
+		EAF503BB20BC463300643921 /* Madurai */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503B920BC462000643921 /* MaduraiSingleViewController.swift */,
+				EA13291720E06FD30069A88B /* AbhimanKidneyCenterDetailedSViewController.swift */,
+				EA13291920E072CC0069A88B /* AravindEyeHospitalViewController.swift */,
+				EA13291B20E075FF0069A88B /* BrightHospitalDetailedSViewController.swift */,
+				EA13291D20E164490069A88B /* DrAgarwalsEyeHospitalMaduraiDetailedSViewController.swift */,
+				EA13291F20E1A0220069A88B /* DrAgarwalsEyeHospKKNagarDetailedSViewController.swift */,
+				EA13292120E1A4890069A88B /* MaduraiKidneyCenterDetailedSViewController.swift */,
+				EA13292320E1A8640069A88B /* SanthyaHospitalDetailedSViewController.swift */,
+				EA13292520E1AB980069A88B /* SriRajanHospitalDetailedSViewController.swift */,
+				EA13292720E1AFBD0069A88B /* RakshaHospitalsDetailedSViewController.swift */,
+				EA13292920E1B29A0069A88B /* TankerFoundationDetailedSViewController.swift */,
+			);
+			path = Madurai;
+			sourceTree = "<group>";
+		};
+		EAF503BE20BC47AD00643921 /* Nagapattinam */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503BC20BC47A700643921 /* NagapattinamSingleViewController.swift */,
+				EACC332D20F8EB1900C1C0C6 /* KrishnaOrthoHospitalDetailedSViewController.swift */,
+				EACC332F20F8EB3600C1C0C6 /* RamBone&JointHospitalDetailedSViewController.swift */,
+			);
+			path = Nagapattinam;
+			sourceTree = "<group>";
+		};
+		EAF503C120BC486400643921 /* Namakkal */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503BF20BC485B00643921 /* NamakkalSingleViewController.swift */,
+				EA322AE620E704A400BABF5B /* ChandraNursingHomeDetailedSViewController.swift */,
+				EA322AE820E7074E00BABF5B /* ChellamHospitalDetailedSViewController.swift */,
+				EA322AEA20E70BA200BABF5B /* AdhithyaNursingHomeDetailedSViewController.swift */,
+				EA322AEC20E7265900BABF5B /* LathaEyeHospitalDetailedSViewController.swift */,
+			);
+			path = Namakkal;
+			sourceTree = "<group>";
+		};
+		EAF503C420BC49BD00643921 /* Perambalur */ = {
+			isa = PBXGroup;
+			children = (
+				EAF503C220BC49B400643921 /* PerambalurSingleViewController.swift */,
+				EA322AE420E7025E00BABF5B /* VasanEyeCarePerambalurDetailedSViewController.swift */,
+			);
+			path = Perambalur;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACE521820BB5C19000CB208 /* CMCHIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACE522B20BB5C1C000CB208 /* Build configuration list for PBXNativeTarget "CMCHIS" */;
+			buildPhases = (
+				EACE521520BB5C19000CB208 /* Sources */,
+				EACE521620BB5C19000CB208 /* Frameworks */,
+				EACE521720BB5C19000CB208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMCHIS;
+			productName = TamilNaduFreeHospitals;
+			productReference = EACE521920BB5C19000CB208 /* CMCHIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACE521120BB5C19000CB208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Akshay Ravi";
+				TargetAttributes = {
+					EACE521820BB5C19000CB208 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EACE521420BB5C19000CB208 /* Build configuration list for PBXProject "CMCHIS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACE521020BB5C19000CB208;
+			productRefGroup = EACE521A20BB5C19000CB208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACE521820BB5C19000CB208 /* CMCHIS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACE521720BB5C19000CB208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACE522720BB5C1C000CB208 /* LaunchScreen.storyboard in Resources */,
+				EA6C290A20E9286C00B49283 /* Assets.xcassets in Resources */,
+				EACE522220BB5C19000CB208 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACE521520BB5C19000CB208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC217C521022E1F00FDF5C2 /* DrAgarwalsEyeHospitalTirunalveliDetailedSViewController.swift in Sources */,
+				EA0677B020F3C2C000E576FC /* AbishekOrthoCenterDetailedSViewController.swift in Sources */,
+				EAC217CB21023F1700FDF5C2 /* SriRamanamaharishiEyeHospitalTiruvannamalaiDetailedSViewController.swift in Sources */,
+				EA06778E20F11E6200E576FC /* DrSureshEyeClinicKanyakumariDetailedSViewController.swift in Sources */,
+				EA6AEF0020DB265F0031ECF9 /* OneCareMedicalDetailedSViewController.swift in Sources */,
+				EA13292220E1A4890069A88B /* MaduraiKidneyCenterDetailedSViewController.swift in Sources */,
+				EAC217AF2100377900FDF5C2 /* KonguOrthoCenterTiruppurDetailedSViewController.swift in Sources */,
+				EA638F6620E7F60400CA9764 /* SrivatsavRakshaHospitalDetailedSViewController.swift in Sources */,
+				EAC217B12100E73400FDF5C2 /* SakthiEyeHospitalVirudhunagarDetailedSViewController.swift in Sources */,
+				EA6AEEE820DAA24F0031ECF9 /* AROrthoHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF2420DD5B630031ECF9 /* LVSEyeHospitalDetailedSViewController.swift in Sources */,
+				EA07DA9C20E3EE1F0006354C /* DrSasiEyeCareHospitalDetailedSViewController.swift in Sources */,
+				EAC217B72101011400FDF5C2 /* SakthibalaHospitalVirudhunagarDetailedSViewController.swift in Sources */,
+				EA6AEEC620D7FB440031ECF9 /* EgmoreEyeHospitalDetailedSViewController.swift in Sources */,
+				EA322AF320E73C8A00BABF5B /* AravindEyeHospitalCuddaloreDetailedSViewController.swift in Sources */,
+				EA70F11C20F6E76300E2729C /* TirupurSingleViewController.swift in Sources */,
+				EA6AEF3620DF1DBB0031ECF9 /* SriBalajiHospitalDetailedSViewController.swift in Sources */,
+				EA07DAA020E401CB0006354C /* RishiNethralayaEyeHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF1020DC66980031ECF9 /* AnnaiENTandHead&NeckCenterDetailedSViewController.swift in Sources */,
+				EA6AEF0820DB4D920031ECF9 /* SindhiaOrthoClinicDetailedSViewController.swift in Sources */,
+				EAF503B720BC3B5D00643921 /* KrishnagiriSingleViewController.swift in Sources */,
+				EA07DA9A20E3E9590006354C /* DrAgarwal'sEyeHospitalSalemViewController.swift in Sources */,
+				EA07DACE20E688780006354C /* RohanSekarHospitalDetailedSViewController.swift in Sources */,
+				EA921DE820C30A3F00757D2E /* DrAgarwalCathedralRoadSViewController.swift in Sources */,
+				EA322AE520E7025E00BABF5B /* VasanEyeCarePerambalurDetailedSViewController.swift in Sources */,
+				EA322AED20E7265900BABF5B /* LathaEyeHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF1820DD39670031ECF9 /* DrLoganathanOrthopaedicHospitalDetailedSViewController.swift in Sources */,
+				EA07DAD820E698A20006354C /* ThanjavurCancerHospitalDetailedSViewController.swift in Sources */,
+				EA638F5A20E747CD00CA9764 /* PudhucherryCancerTrustHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF0C20DC57900031ECF9 /* AbiramiKidneyCenterDetailedSViewController.swift in Sources */,
+				EA06778420F104A200E576FC /* DrKumarsOrthoClinicDetailedSViewController.swift in Sources */,
+				EAC217CD21023F5600FDF5C2 /* VivekanandaEyeHospitalTiruvannamalaiDetailedSViewController.swift in Sources */,
+				EAC217BF2101621F00FDF5C2 /* ArcotDialysisCenterDetailedSViewController.swift in Sources */,
+				EA70F12220F6E84100E2729C /* VelloreSingleViewController.swift in Sources */,
+				EA965EC620C0F17700A7B4BE /* SalemSingleViewController.swift in Sources */,
+				EAC217C721022E6100FDF5C2 /* SubramanianNursingHomeTirunalveliDetailedSViewController.swift in Sources */,
+				EA07DADC20E69FFC0006354C /* SriSubaKowsikHospitalDetailedSViewController.swift in Sources */,
+				EA13291E20E164490069A88B /* DrAgarwalsEyeHospitalMaduraiDetailedSViewController.swift in Sources */,
+				EA6AEED420D869D60031ECF9 /* OrthomedDetailedSViewController.swift in Sources */,
+				EAC217A720FFB03200FDF5C2 /* BalaOrthoHospitalTiruppurDetailedSViewController.swift in Sources */,
+				EA6AEF2E20DF04120031ECF9 /* SKHospitalDetailedSViewController.swift in Sources */,
+				EA638F6020E7E6BC00CA9764 /* VasanEyeCareDharmapuriDetailedSViewController.swift in Sources */,
+				EA07DAA420E407D60006354C /* SreeVasanthamDetailedSViewController.swift in Sources */,
+				EA6AEECA20D80BDD0031ECF9 /* JanakiENTNursingHomeDetailedSViewController.swift in Sources */,
+				EA06778C20F11E1F00E576FC /* BejanSinghEyehospitalDetailedSViewController.swift in Sources */,
+				EA07DAA220E405390006354C /* SalemGopiHospitalDetailedSViewController.swift in Sources */,
+				EAF503BA20BC462000643921 /* MaduraiSingleViewController.swift in Sources */,
+				EACC332220F83CCD00C1C0C6 /* Agarwal'sEyeHospitalHosurDetailedSViewController.swift in Sources */,
+				EA07DADE20E6A2E50006354C /* AnandhEyeHospitalDetailedSViewController.swift in Sources */,
+				EA6AEEEC20DAAC2D0031ECF9 /* AravindEyeHospitalDetailedSViewController.swift in Sources */,
+				EA06779420F11FC400E576FC /* KIMSKanyakumariDetailedSViewController.swift in Sources */,
+				EAC2179D20FF885400FDF5C2 /* DrRaiCBCCOncologyServicesDetailedSViewController.swift in Sources */,
+				EA06779220F11F9C00E576FC /* ManuelOrthopaedicHospitalKanyakumariDetailedSViewController.swift in Sources */,
+				EA6AEEF620DACA2E0031ECF9 /* KongunaduKidneyCenterDetailedSViewController.swift in Sources */,
+				EA0677B220F3C85A00E576FC /* KarurKidneyCareHospitalDetailedSViewController.swift in Sources */,
+				EA13292020E1A0220069A88B /* DrAgarwalsEyeHospKKNagarDetailedSViewController.swift in Sources */,
+				EA13292820E1AFBD0069A88B /* RakshaHospitalsDetailedSViewController.swift in Sources */,
+				EA6AEED020D861C40031ECF9 /* MadrasENTResearchFoundationDetailedSViewController.swift in Sources */,
+				EAC217B32100F22200FDF5C2 /* SriRamakrishnaHospitalVirudhunagarDetailedSViewController.swift in Sources */,
+				EA6AEF3020DF07890031ECF9 /* SCSHospitalDetailedSViewController.swift in Sources */,
+				EA07DA9E20E3FA610006354C /* GlobalMedicalCenterDetailedSViewController.swift in Sources */,
+				EA13291C20E075FF0069A88B /* BrightHospitalDetailedSViewController.swift in Sources */,
+				EAF503AB20BB8CF800643921 /* ErodeSingleViewController.swift in Sources */,
+				EAF503A820BB8B9D00643921 /* DindigulSingleViewController.swift in Sources */,
+				EAF503B120BB963A00643921 /* KanyakumariSingleViewController.swift in Sources */,
+				EA965EC320C0F0DF00A7B4BE /* RamanathapuramSingleViewController.swift in Sources */,
+				EAF5039C20BB747E00643921 /* ChennaiSingleViewController.swift in Sources */,
+				EA638F5820E7420900CA9764 /* KrishnaCancerInstituteDetailedSViewController.swift in Sources */,
+				EA70F11920F6E6AB00E2729C /* TirunalveliSingleViewController.swift in Sources */,
+				EA638F6820E7F62100CA9764 /* VanAllenHospitalDetailedSViewController.swift in Sources */,
+				EAC2179920FED85300FDF5C2 /* TANKERFoundationDialysisCenterTiruvallurDetailedSViewController.swift in Sources */,
+				EA6AEF1620DD36730031ECF9 /* DrAgarwalsEyeHospitalErodeDetailedSViewController.swift in Sources */,
+				EAC2179F20FF8D0500FDF5C2 /* DRREyeCareandOcuplastyCenterDetailedSViewController.swift in Sources */,
+				EA6AEF3220DF14340031ECF9 /* ShriVijayaTraumaCareDetailedSViewController.swift in Sources */,
+				EAF5039220BB629900643921 /* HospitalCategoryViewController.swift in Sources */,
+				EA6AEF0220DB297F0031ECF9 /* RexOrthoHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF1420DCB44F0031ECF9 /* BharaniPanventhanHospitalDetailedSViewController.swift in Sources */,
+				EA921DE420C3050200757D2E /* DeepamEyeCareDetailedSViewController.swift in Sources */,
+				EAC217BB210160E200FDF5C2 /* DrAgarwalsEyeHospitalVelloreDetailedSViewController.swift in Sources */,
+				EAF503BD20BC47A700643921 /* NagapattinamSingleViewController.swift in Sources */,
+				EA07DA9820E3E44D0006354C /* AbhiEyeHospitalDetailedSViewController.swift in Sources */,
+				EA965ECC20C0F4AD00A7B4BE /* ThanjavurSingleViewController.swift in Sources */,
+				EA70F11F20F6E7AE00E2729C /* TuticorinSingleViewController.swift in Sources */,
+				EA921DE220C2FCEF00757D2E /* CancerInstituteDetailedSViewController.swift in Sources */,
+				EA70F11620F6E62F00E2729C /* TiruchirapalliSingleViewController.swift in Sources */,
+				EA6AEF1C20DD41F40031ECF9 /* ErodeKidneyCenterDetailedSViewController.swift in Sources */,
+				EA06778A20F105B200E576FC /* DrAgarwalsEyeHospitalKancheepuramDetailedSViewController.swift in Sources */,
+				EA6AEEE220D952E40031ECF9 /* VasanthaSubramanianDetailedSViewController.swift in Sources */,
+				EA6AEECC20D810A10031ECF9 /* KKRENTResearchDetailedSViewController.swift in Sources */,
+				EA06778820F1056C00E576FC /* ParvathyOrthoHospitalKancheepuramDetailedSViewController.swift in Sources */,
+				EA965ECF20C0F5BC00A7B4BE /* TheniSingleViewController.swift in Sources */,
+				EA0677AE20F3BEBA00E576FC /* AarthyEyeHospitalDetailedSViewController.swift in Sources */,
+				EA07DAD020E68C3C0006354C /* DrAgarwalsEyeHospitalThanjavurDetailedSViewController.swift in Sources */,
+				EA06778620F1051700E576FC /* SankaraEyeHospitalKancheepuramDetailedSViewController.swift in Sources */,
+				EA6AEEDE20D87F200031ECF9 /* VasanEyeCareWashermanpetDetailedSViewController.swift in Sources */,
+				EA6AEEDC20D877740031ECF9 /* ToshHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF0420DB2C0D0031ECF9 /* SathyanEyeCareDetailedSViewController.swift in Sources */,
+				EA6AEEE020D94CE20031ECF9 /* VasanEyeCareSaidapetDetailedSViewController.swift in Sources */,
+				EA6AEED820D8713A0031ECF9 /* RajanEyeCareDetailedSViewController.swift in Sources */,
+				EAC217B52100FCA400FDF5C2 /* GrahamClinicVirudhunagarDetailedSViewController.swift in Sources */,
+				EA6AEF3420DF18CA0031ECF9 /* TPNHospitalDetailedSViewController.swift in Sources */,
+				EA8A97ED20D08F35002D65F5 /* DrRaiMemorialCancerInstituteDetailedSViewController.swift in Sources */,
+				EAC217BD210161EB00FDF5C2 /* TANKERFoundationSathuvachariDetailedSViewController.swift in Sources */,
+				EA6AEEFA20DB18980031ECF9 /* LotusEyeHospitalDetailedSViewController.swift in Sources */,
+				EACE521F20BB5C19000CB208 /* ViewController.swift in Sources */,
+				EA6AEEEA20DAA6C60031ECF9 /* ArathanaHospitalDetailedSViewController.swift in Sources */,
+				EAC2179B20FEE4AD00FDF5C2 /* DrAravindVisionEyeCareDetailedSTiruvallurViewController.swift in Sources */,
+				EA0677B620F3D2C000E576FC /* VelanEyeHospitalDetailedSViewController.swift in Sources */,
+				EA6AEEDA20D874800031ECF9 /* ThalessemiaWelfareDetailedSViewController.swift in Sources */,
+				EA13291820E06FD30069A88B /* AbhimanKidneyCenterDetailedSViewController.swift in Sources */,
+				EA13292620E1AB980069A88B /* SriRajanHospitalDetailedSViewController.swift in Sources */,
+				EAC217C321022DEE00FDF5C2 /* AravindEyeHospitalTirunalveliDetailedSViewController.swift in Sources */,
+				EA638F5C20E7E5B200CA9764 /* DNVOrthoCareDetailedSViewController.swift in Sources */,
+				EA6AEEFC20DB1BFA0031ECF9 /* MCVMemorailENTHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF2620DD5DE10031ECF9 /* LKMHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF1A20DD3D870031ECF9 /* ErodeCancerCenterDetailedSViewController.swift in Sources */,
+				EA322AE720E704A400BABF5B /* ChandraNursingHomeDetailedSViewController.swift in Sources */,
+				EA6AEEFE20DB1FF50031ECF9 /* NehruUrologyCenterDetailedSViewController.swift in Sources */,
+				EACE521D20BB5C19000CB208 /* AppDelegate.swift in Sources */,
+				EA6AEF2220DD57CD0031ECF9 /* KumarasamyHospitalDetailedSViewController.swift in Sources */,
+				EA0677B420F3CD3E00E576FC /* RajOrthoHospitalDetailedSViewController.swift in Sources */,
+				EA6AEEC820D7FBA00031ECF9 /* IswaryaFertilityCentreDetailedSViewController.swift in Sources */,
+				EAC217AB21001E5C00FDF5C2 /* PriyaOrthoHospitalTiruppurDetailedSViewController.swift in Sources */,
+				EA6AEED220D865800031ECF9 /* SankaraNethralayaDetailedSViewController.swift in Sources */,
+				EAF503A220BB7DF700643921 /* CuddaloreSingleViewController.swift in Sources */,
+				EA07DADA20E69CCB0006354C /* PadminiUrologyClinicDetailedSViewController.swift in Sources */,
+				EA6AEECE20D813FB0031ECF9 /* MNEyeHospitalDetailedSViewController.swift in Sources */,
+				EA638F6420E7F59200CA9764 /* KTHospitalDindigulDetailedSViewController.swift in Sources */,
+				EACC333020F8EB3600C1C0C6 /* RamBone&JointHospitalDetailedSViewController.swift in Sources */,
+				EAF503A520BB811A00643921 /* DharmapuriSingleViewController.swift in Sources */,
+				EACC332420F83D4A00C1C0C6 /* Agarwal'sEyeHospitalKrishnagiriDetailedSViewController.swift in Sources */,
+				EAF503C020BC485B00643921 /* NamakkalSingleViewController.swift in Sources */,
+				EA6AEF2A20DDDDD20031ECF9 /* NationalHospitalDetailedSViewController.swift in Sources */,
+				EA6AEEF020DAC01C0031ECF9 /* DrMuthusHospitalDetailedSViewController.swift in Sources */,
+				EA07DAD220E68FE70006354C /* DrAravindVisionCareDetailedSViewController.swift in Sources */,
+				EA06779020F11F3800E576FC /* RegionalCancerCenterKanyakumariDetailedSViewController.swift in Sources */,
+				EAC217A920FFB6EC00FDF5C2 /* ARSHospitalTiruppurDetailedSViewController.swift in Sources */,
+				EAC217C921023B1700FDF5C2 /* AmrishOncologyServicesTiruchirapalliDetailedSViewController.swift in Sources */,
+				EAF503C320BC49B400643921 /* PerambalurSingleViewController.swift in Sources */,
+				EACC332820F83D8E00C1C0C6 /* UmaRaniHospitalDetailedSViewController.swift in Sources */,
+				EA70F12520F6E8A300E2729C /* VirudhunagarSingleViewController.swift in Sources */,
+				EACC332C20F83DCC00C1C0C6 /* VasanEyeCareHospitalKrishnagiriDetailedSViewController.swift in Sources */,
+				EA13292420E1A8640069A88B /* SanthyaHospitalDetailedSViewController.swift in Sources */,
+				EA322AE920E7074E00BABF5B /* ChellamHospitalDetailedSViewController.swift in Sources */,
+				EA6AEEEE20DAAF770031ECF9 /* CoimbatoreBoneAndJointDetailedSViewController.swift in Sources */,
+				EAC217A320FF9A7C00FDF5C2 /* LotusEyeCareTirupppurDetailedSViewController.swift in Sources */,
+				EAC217C121022A2F00FDF5C2 /* PublicWelfareHospitalTuticorinDetailedSViewController.swift in Sources */,
+				EAC217B92101013300FDF5C2 /* MathiCardiacCenterVirudhunagarDetailedSViewController.swift in Sources */,
+				EA638F5E20E7E68A00CA9764 /* DrAgarwalsEyeHospitalDharmapuriDetailedSViewController.swift in Sources */,
+				EAC217AD2100374400FDF5C2 /* DSKHospitalsTirupurDetailedSViewController.swift in Sources */,
+				EA6AEF2C20DEFF340031ECF9 /* OrthoLifeHospitalDetailedSViewController.swift in Sources */,
+				EA13292A20E1B29A0069A88B /* TankerFoundationDetailedSViewController.swift in Sources */,
+				EA6AEEF420DAC7EE0031ECF9 /* GemHospitalandResearchDetailedSViewController.swift in Sources */,
+				EACC332620F83D6400C1C0C6 /* SBSHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF1220DC99C30031ECF9 /* ArasanEyeHospitalDetailedSViewController.swift in Sources */,
+				EA70F11020F6E56900E2729C /* TiruvallurSingleViewController.swift in Sources */,
+				EA6AEEF820DACCBE0031ECF9 /* LotusEyeCareDetailedSViewController.swift in Sources */,
+				EAF5039620BB637100643921 /* SingleChooseDistViewController.swift in Sources */,
+				EA07DAD420E693910006354C /* KDRHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF2820DDD6DD0031ECF9 /* MSChildren'sHospitalDetailedSViewController.swift in Sources */,
+				EA6AEF0E20DC5CC30031ECF9 /* AchchuthaEyeCareDetailedSViewController.swift in Sources */,
+				EA6AEF0A20DB516E0031ECF9 /* VikramENTHospitalDetailedSViewController.swift in Sources */,
+				EA965ED220C21CA100A7B4BE /* ApolloDetailedSViewController.swift in Sources */,
+				EA6AEEF220DAC4B40031ECF9 /* EyeFoundationLtdDetailedSViewController.swift in Sources */,
+				EA06779620F12D7A00E576FC /* DrIssacBoneandJointHospitalDetailedSViewController.swift in Sources */,
+				EA13291A20E072CC0069A88B /* AravindEyeHospitalViewController.swift in Sources */,
+				EA6AEF2020DD4A540031ECF9 /* KalyaniKidneyCenterDetailedSViewController.swift in Sources */,
+				EA70F11320F6E5CF00E2729C /* TiruvannamalaiSingleViewController.swift in Sources */,
+				EAC217A520FFA6C000FDF5C2 /* TheEyeFoundationTiruppurDetailedSViewController.swift in Sources */,
+				EAF503AE20BB949F00643921 /* KancheepuramSingleViewController.swift in Sources */,
+				EAC2179720FED2BE00FDF5C2 /* VeeCareEyeTiruvallurDetailedSViewController.swift in Sources */,
+				EA965EC920C0F38500A7B4BE /* SivagangaiSingleViewController.swift in Sources */,
+				EA07DACC20E685780006354C /* RathinamOrthoCenterDetailedSViewController.swift in Sources */,
+				EA6AEF1E20DD46030031ECF9 /* ErodeOrthoCenterDetailedSViewController.swift in Sources */,
+				EA322AEB20E70BA200BABF5B /* AdhithyaNursingHomeDetailedSViewController.swift in Sources */,
+				EA07DAD620E696420006354C /* SBHospitalDetailedSViewController.swift in Sources */,
+				EA6AEED620D86B970031ECF9 /* RadhatriNethralayaDetailedSViewController.swift in Sources */,
+				EAC217A120FF94C500FDF5C2 /* DarshanSurgicalCenterTiruvallurDetailedSViewController.swift in Sources */,
+				EAF5039F20BB7A1700643921 /* CoimbatoreSingleViewController.swift in Sources */,
+				EA07DACA20E6822C0006354C /* AravindEyeHospitalTheniDetailedSViewController.swift in Sources */,
+				EACC332E20F8EB1900C1C0C6 /* KrishnaOrthoHospitalDetailedSViewController.swift in Sources */,
+				EAF503B420BB9A8800643921 /* KarurSingleViewController.swift in Sources */,
+				EA322AEF20E737F200BABF5B /* AbhiramiHospitalCuddaloreDetailedSViewController.swift in Sources */,
+				EA638F6220E7F41B00CA9764 /* CityHospitalDindigulDetailedSViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EACE522020BB5C19000CB208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACE522120BB5C19000CB208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACE522520BB5C1C000CB208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACE522620BB5C1C000CB208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACE522920BB5C1C000CB208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EACE522A20BB5C1C000CB208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACE522C20BB5C1C000CB208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3884UFA3ZF;
+				INFOPLIST_FILE = CMCHIS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AkshayRavi.CMCHIS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EACE522D20BB5C1C000CB208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3884UFA3ZF;
+				INFOPLIST_FILE = CMCHIS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AkshayRavi.CMCHIS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACE521420BB5C19000CB208 /* Build configuration list for PBXProject "CMCHIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACE522920BB5C1C000CB208 /* Debug */,
+				EACE522A20BB5C1C000CB208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACE522B20BB5C1C000CB208 /* Build configuration list for PBXNativeTarget "CMCHIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACE522C20BB5C1C000CB208 /* Debug */,
+				EACE522D20BB5C1C000CB208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACE521120BB5C19000CB208 /* Project object */;
+}
